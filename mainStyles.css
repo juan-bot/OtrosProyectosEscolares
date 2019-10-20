@@ -1,0 +1,87 @@
+*{
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    /* Ubicación de la imagen */
+  background-image: url(imagenes/fondo.png);
+
+  /* Para dejar la imagen de fondo centrada, vertical y
+  horizontalmente */
+  background-position: center center;
+
+  /* Para que la imagen de fondo no se repita */
+  background-repeat: no-repeat;
+
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-attachment: fixed;
+
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-size: cover;
+
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+  de fondo o si hay problemas para cargarla */
+  background-color: #66999;
+  background-color: #ffffff;
+
+}
+.bor1{
+  padding: 20px;
+  border: 1px solid #5d6063;
+  background-color: darkslategray;
+  color: #ffffff;
+}
+.bor2{
+  padding: 20px;
+  border: 1px solid #5d6063;
+  background:transparent;
+  background-color: lightseagreen;
+  color: #ffffff;
+  width: 700px;
+}
+.apartados{
+  font-size: 20px;
+  font-family: arial;
+
+}
+.contenido h4{
+  font-size: 30px;
+  font-family: arial;
+}
+.contenido li{
+  font-family: cursive;
+  font-size: 25px;
+}
+a:link{
+  color:orange;
+  text-decoration: none;
+}
+
+.botton{
+  display:inline-block;
+  font-weight: bold;
+  padding: 22px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #5d6063;
+  width: 270px;
+  margin: 8px auto;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  background-color: #ffffff;
+  font-size: 25px;
+}
+.botton:hover{
+  border: 1px solid #5d6063;
+  margin: 8px auto;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  background-color: lightsalmon;
+    font-size: 25px;
+}
+
+ul{
+  color: orange;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 2px;
+}
