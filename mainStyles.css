@@ -26,6 +26,13 @@ body{
   background-color: #ffffff;
 
 }
+
+.marco{
+  width:1100px;
+  margin: 0 auto;
+  border: 10px solid red;
+  border-radius: 66px;
+}
 .bor1{
   padding: 20px;
   border: 1px solid #5d6063;
@@ -57,27 +64,40 @@ a:link{
   color:orange;
   text-decoration: none;
 }
-
-.botton{
-  display:inline-block;
-  font-weight: bold;
-  padding: 22px;
-  text-decoration: none;
-  text-align: center;
-  border: 1px solid #5d6063;
+a{
   width: 270px;
-  margin: 8px auto;
-  font-family: "calibri", Garamond, 'Comic Sans';
-  background-color: #ffffff;
-  font-size: 25px;
+  height: 900 px;
+  margin-bottom: 20px;
 }
-.botton:hover{
-  border: 1px solid #5d6063;
-  margin: 8px auto;
+
+.botton1{
+  float: left;
   font-family: "calibri", Garamond, 'Comic Sans';
-  background-color: lightsalmon;
-    font-size: 25px;
+  background-color: orange;
+  font-size: 45px;
+  margin-left: 1070px;
+  color: brown;
 }
+.botton1:hover{
+  background-color: transparent;
+  color :#ffffff;
+  border: 3px solid orange;
+}
+
+.botton2{
+  float: left;
+  margin-left: 33px;
+  font-family: "calibri", Garamond, 'Comic Sans';
+  background-color: orange;
+  font-size: 45px;
+  color: brown;
+}
+.botton2:hover{
+  background-color: transparent;
+  color :#ffffff;
+  border: 3px solid orange;
+}
+
 
 ul{
   color: orange;

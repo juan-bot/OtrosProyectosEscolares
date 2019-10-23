@@ -1,6 +1,6 @@
 body{
     /* Ubicación de la imagen */
-  background-image: url(imagenes/fondo-cine.jpg);
+  background-image: url(imagenes/fondo-deportes.png);
 
   /* Para dejar la imagen de fondo centrada, vertical y
   horizontalmente */
@@ -19,44 +19,20 @@ body{
   de fondo o si hay problemas para cargarla */
   background-color: #66999;
 }
-
-.nombres li:hover{
-  color: black;
-  background-color: #ffffff;
+h1{
+  font-size: 63px;
 }
 div{
   width: 900px;
   height: 700 px;
-  margin-bottom: 20px;
-}
-p{
-  width: 900px;
-  height: 90 px;
   border: 3px solid red;
-  border-radius: 33px;
-  font-size: 64px;
-  font-family: arial;
-  text-decoration: none;
-  color:red;
-  background-color: black;
+  margin-bottom: 20px;
 }
 .img1{
   float:left;
-  margin-left: 50px;
+  margin-left: 250px;
 }
 .img2{
   float:left;
-  margin-left: 100px;
-}
-.img3{
-  float:left;
-  margin-left: 50px;
-}
-.img4{
-  float:left;
-  margin-left: 90px;
-}
-.img5{
-  float:left;
-
+  margin-left: 260px;
 }
