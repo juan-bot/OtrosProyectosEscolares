@@ -1,0 +1,8 @@
+*{
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+#contenedor h1{
+  color: "red";
+}
