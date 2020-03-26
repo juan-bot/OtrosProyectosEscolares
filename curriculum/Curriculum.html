@@ -13,40 +13,73 @@
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
-	<body>
+	<body style="background-color: #fff">
     <br><br><br>
-    <div id="contenedor"></div>
+
+    <div class="container" id="contenedor"  style="color:DarkTurquoise" style="background-color:#39382D"></div>
     <script type="text/babel">
-      class My extends React.Component{
-        render(){
-          return(
-            <button type="button" class="btn btn-secondary">Secondary</button>
-          );
-        }
+
+      function Boton(props){
+          return <button type="button" class="btn btn-warning">{props.title}</button>;
       }
       function Informacion(props){
         return <h5>{props.title}</h5>;
+      }
+      function Titulos(props){
+        return (
+            <h3>{props.title}</h3>
+        );
+      }
+      function Contacto(){
+        return(
+        <div>
+          <img src='imagenes/perfil.jpg' width='60%'/>
+          <Titulos title="Contacto"/>
+          <hr/>
+          <ul>
+            <li>Telefono: 9512205577</li>
+            <li>email: juanpablovazques544@gmail.com</li>
+            <li>Github: <a href="https://github.com/juan-bot/programacion-web.git" >Mi repositorio</a></li>
+            <li>Matricula: 2017020154</li>
+          </ul>
+        </div>
+      );
       }
       ReactDOM.render(
         <div>
           <section>
             <div className="row">
-              <div className="col-lg-1"></div>
               <div className="col-lg-4">
-                <img src='imagenes/perfil.jpg' width='40%'/>
-                <h3>Contacto</h3>
-                <ul>
-                  <li>Telefono: 9512205577</li>
-                  <li>email: juanpablovazques544@gmail.com</li>
-                  <li>Github: <a href=""></a></li>
-                </ul>
+                <Contacto/>
               </div>
-              <div className="col-lg-7">
-                <h1 id="nombre">JUAN PABLO GUZMAN</h1>
-                <h4>Estudiante de la UTM</h4>
-                <Informacion title="juan"/>
-                <Informacion title="juan"/>
-                <Informacion title="juan"/>
+              <div className="col-lg-8">
+                <strong><h1 id="nombre">Juan Pablo Anuard Vázquez Guzmán</h1></strong>
+                <br/>
+                <Titulos title="Estudiante de la UTM"/>
+                <hr/>
+                <ul>
+                  <li>
+                    <Informacion title="Educacion Profesional"/>
+                  </li>
+                  <Informacion title="Tecnico en Instalaciones Electricas / Ingenieria en Computacion (2017 - Actualidad)"/>
+                  <li>
+                    <Informacion title="Experiencia Laboral"/>
+                  </li>
+                  <Informacion title="Becario en Comision Federal de Electricidad (CFE) como ayudante administrativo y en laboratorio en el area de Protecciones durante el segundo semestre del 2016."/>
+                  <li>
+                    <Informacion title="Mis habilidades"/>
+                  </li>
+                  <Informacion title="Responsabilidad y seriedad / Capacidad de analisis"/>
+                  <li>
+                    <Informacion title="Idiomas"/>
+                  </li>
+                  <Informacion title="Ingles - Intermedio Avanzado"/>
+                  <li>
+                    <Informacion title="Mis Intereses"/>
+                  </li>
+                  <Boton title="Peliculas"/>
+                  <Boton title="Deportes"/>
+                </ul>
               </div>
             </div>
           </section>
