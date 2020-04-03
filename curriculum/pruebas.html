@@ -13,14 +13,14 @@
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
-	<body style="background-color:  #39382D">
+	<body style="background-color: #39382D">
     <br><br><br>
 
     <div class="container" id="contenedor"  style="color:DarkTurquoise" style="background-color:#39382D"></div>
     <script type="text/babel">
 
       function Boton(props){
-          return <button type="button" className="btn btn-outline-warning">{props.title}</button>;
+          return <button type="button" className="btn btn-warning">{props.title}</button>;
       }
       function Informacion(props){
         return <h5>{props.title}</h5>;
@@ -30,7 +30,6 @@
             <h3>{props.title}</h3>
         );
       }
-
       function Contacto(){
         return(
         <div>
@@ -78,8 +77,8 @@
                   <li>
                     <Informacion title="Mis Intereses"/>
                   </li>
-                  <a href="Pelis.html"><Boton title="Peliculas"/></a>
-                  <a href="Deportes.html"><Boton title="Deportes"/></a>
+                  <a><Boton title="Peliculas"/></a>
+                  <a><Boton title="Deportes"/></a>
                 </ul>
               </div>
             </div>
@@ -88,8 +87,6 @@
         document.getElementById('contenedor')
       );
     </script>
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
