@@ -1,0 +1,31 @@
+body{
+  background-color: "red";
+}
+.turno{
+  width: 150px;
+  height: 20px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.marco{
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  border: 8px solid black;
+  height: 600px;
+  flex-wrap: wrap;
+}
+.celda{
+  width: 75px;
+  height: 75px;
+  color:red
+}
+.celda :hover{
+  background-color: "green";
+}
+.blancas{
+  background-color: #ffffff;
+}
+.negras{
+  background-color: black;
+}
