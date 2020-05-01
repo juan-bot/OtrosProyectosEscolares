@@ -1,0 +1,12 @@
+*{
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr{
+  height: 16px;
+  background-color: red;
+}
+.contenido{
+  color:white;
+}
