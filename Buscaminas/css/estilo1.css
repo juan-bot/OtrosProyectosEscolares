@@ -1,0 +1,39 @@
+.casilla{
+  border-radius: 2px;
+  width: 26px;
+  height: 26px;
+}
+.game-board{
+  width: 420px;
+  height: 270px;
+  border-radius: 3px;
+  background-color: #548627;
+}
+.cont{
+  margin-left: 100px;
+}
+.par{
+  background-color: #ADE151;
+}
+.impar{
+  background-color: #BFF069;
+}
+.par2{
+  background-color: #EBD39F;
+}
+.impar2{
+  background-color: #FBE5B5;
+}
+.uno{
+  color: #0097FF;
+}
+.dos{
+  color: #0AE30D;
+}
+.tres{
+  color: #FF0051;
+}
+
+.mina{
+    background-color:#F1160B;
+}
