@@ -4,5 +4,6 @@
   box-sizing: border-box;
 }
 hr {
-  border-color:red;
+  background: #66CDAA;
+  height: 5;
 }
