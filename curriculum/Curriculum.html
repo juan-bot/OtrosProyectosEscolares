@@ -13,77 +13,149 @@
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
-	<body style="background-color:  #39382D">
+	<body >
     <br><br><br>
-
-    <div class="container" id="contenedor"  style="color:DarkTurquoise" style="background-color:#39382D"></div>
+    <div class="container" id="contenedor"   ></div>
     <script type="text/babel">
 
-      function Boton(props){
-          return <button type="button" className="btn btn-outline-warning">{props.title}</button>;
-      }
       function Informacion(props){
-        return <h5>{props.title}</h5>;
+        return <h6>{props.title}</h6>;
       }
-      function Titulos(props){
+      function Titulo1(props){
+        const style = {
+          color:"Turquoise",
+          //style="background-color: #39382D;"
+        };
         return (
-            <h3>{props.title}</h3>
+            <h1 style={style}>{props.title}</h1>
         );
       }
+      function Titulo2(props){
+        const style2 = {
+          color:"DarkOrange",
+        };
+        return (
+            <strong><h3 style={style2}>{props.title}</h3></strong>
+        );
+      }
+      function Titulo3(props){
+        const style2 = {
+          color:"Red",
 
+        };
+        return (
+            <strong><h5 style={style2}>{props.title}</h5></strong>
+        );
+      }
+      function Titulo4(props){
+        const style2 = {
+          color:"Orange",
+
+        };
+        return (
+            <strong><h5 style={style2}>{props.title}</h5></strong>
+        );
+      }
       function Contacto(){
         return(
         <div>
-          <img src='imagenes/perfil.jpg' width='60%'/>
-          <Titulos title="Contacto"/>
+          <img src='imagenes/perfil.jpg' width='70%'/>
+          <br/><br/>
+          <Titulo3 title="PERFIL"/>
+          <hr/>
+          <p>Soy Juan Pablo desarrollador y estudiante de Oaxaca, me motiva el 
+          poder ser parte de nuevos proyectos. Me gusta ser autodidacta, trabajar en equipo, 
+          he trabajado con metodologias SCRUM y Agiles.</p>
+          <Titulo3 title="CONTACTO"/>
           <hr/>
           <ul>
             <li>Telefono: 9512205577</li>
             <li>email: juanpablovazques544@gmail.com</li>
-            <li>Github: <a href="https://github.com/juan-bot/programacion-web.git" >Mi repositorio</a></li>
-            <li>Matricula: 2017020154</li>
+            <li>Github: <a href="https://github.com/juan-bot/programacion-web.git" >Mi repositorio de proyectos</a></li>
+            <li>Matricula Estudiantil: 2017020154</li>
+          </ul><hr/>
+          <Titulo3 title="IDIOMAS"/>
+          <ul>
+            <li>Ingles nivel: FC2 según Cambridge ESOL</li>
+          </ul>
+          <hr/>
+          <Titulo3 title="EDUCACION"/>
+          <ul>
+            <li>Universidad Tecnológica de la Mixteca (SUNEO)
+              <br/> Ingenieria en Computación<br/>
+                2017 - Actualidad
+            </li>
           </ul>
         </div>
       );
       }
       ReactDOM.render(
         <div>
-          <section>
+          <div class="container">
             <div className="row">
-              <div className="col-lg-4">
-                <Contacto/>
+              <div className="col-lg-4 " >
+                <Contacto />
               </div>
-              <div className="col-lg-8">
-                <strong><h1 id="nombre">Juan Pablo Anuard Vázquez Guzmán</h1></strong>
+              <div className="col-lg-8 ">
+                <Titulo1 title="Hola!, Soy Juan Pablo Vázquez Guzmán"/>
+                <Titulo1 title="Estudiante Universitario"/>
+                <hr/><br/>
+                <Titulo2 title="Experiencia"/>
                 <br/>
-                <Titulos title="Estudiante de la UTM"/>
-                <hr/>
+                <Titulo4 title="JAVA DEVELOPER MAYO 2019"/>
                 <ul>
-                  <li>
-                    <Informacion title="Educacion Profesional"/>
+                  <li> Desarrollo de una aplicacion CRUD de escritorio usando 
+                  POSTGRESQL como gestor de BD y Netbeans como IDE.
                   </li>
-                  <Informacion title="Tecnico en Instalaciones Electricas / Ingenieria en Computacion (2017 - Actualidad)"/>
-                  <li>
-                    <Informacion title="Experiencia Laboral"/>
-                  </li>
-                  <Informacion title="Becario en Comision Federal de Electricidad (CFE) como ayudante administrativo y en laboratorio en el area de Protecciones durante el segundo semestre del 2016."/>
-                  <li>
-                    <Informacion title="Mis habilidades"/>
-                  </li>
-                  <Informacion title="Responsabilidad y seriedad / Capacidad de analisis"/>
-                  <li>
-                    <Informacion title="Idiomas"/>
-                  </li>
-                  <Informacion title="Ingles - Intermedio Avanzado"/>
-                  <li>
-                    <Informacion title="Mis Intereses"/>
-                  </li>
-                  <a href="Pelis.html"><Boton title="Peliculas"/></a>
-                  <a href="Deportes.html"><Boton title="Deportes"/></a>
                 </ul>
+                <br/>
+                <Titulo4 title="WEB DEVELOPER OCTUBRE 2019 - FEBRERO 2020"/>
+                <ul>
+                  <li> Desarrollo de pequeñas aplicaciones tales como un juego de damas españolas 
+                  y un buscaminas usando utilizando HTML, JS, CSS y Bootstrap.
+                  </li>
+                  <li>Desarrollo de un sitio web de un cine asi 
+                  como su respectivo sitio administrativo de contenido utilizando 
+                  HTML, JS, CSS, Bootstrap, Php, MySql y Ajax.</li>
+                  <li>Desarrollo de un blog de noticias y su respectivo 
+                  sitio administrativo de contenido utilizando 
+                  HTML, JS, CSS, Bootstrap, Php, MySql.</li>
+                </ul>
+                <br/>
+                <Titulo4 title="REACTJS / NODEJS DEVELOPER MARZO 2020 - JULIO 2020"/>
+                <ul>
+                  <li>Desarrollo de un juego para 2 usuarios en tiempo real usando Firebase/Firestore y JSX.</li>
+                  <li>Desarrollo de una aplicacion CRUD utilizando una Api Rest para el almacenamiento de datos
+                      usando HTML, JSX, CSS y Bootstrap.</li>
+                  <li>Desarrollo de una aplicacion CRUD utilizando Firebase/Firestore (base de datos NOSql) 
+                  para el almacenamiento de datos asi como HTML, JSX, CSS y Bootstrap.</li>
+                </ul>
+                <br/>
+                <Titulo4 title="ANDROID DEVELOPER MARZO 2020 - JULIO 2020"/>
+                <ul>
+                  <li>Desarrollo de una pequeña banca en linea para 
+                  estudiantes de la universidad utilizando ANDROID STUDIO, KOTLIN y Firebase/Firestore. </li>
+                </ul>
+                
+
               </div>
             </div>
-          </section>
+          </div>
+          <Titulo2 title="Habilidades"/>
+                  <img src='imagenes/g1.jpg' width='20%'/>
+                  <img src='imagenes/g2.jpg' width='20%'/>
+                  <img src='imagenes/g3.jpg' width='20%'/>
+                  <img src='imagenes/g4.jpg' width='20%'/>
+                  <img src='imagenes/g5.jpg' width='20%'/>
+                  <div className="row">
+                    <div className="col-lg-3 " >
+
+                    </div>
+                    <div className="col-lg-9" >
+                      <img src='imagenes/g6.jpg' width='30%'/>
+                      <img src='imagenes/g7.jpg' width='30%'/>
+                    </div>
+                  </div>
         </div>,
         document.getElementById('contenedor')
       );
