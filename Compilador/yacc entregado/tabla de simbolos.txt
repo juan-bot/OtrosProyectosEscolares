@@ -1,0 +1,21 @@
+Identificador     #Token  #Linea(s) en donde se encuentra
+
+programa_1           8    3 
+v1                   8    5 7 9 27 
+v2                   8    6 8 
+v8                   8    10 28 
+v3                   8    12 
+v4                   8    13 
+mayor                8    14 
+v5                   8    16 
+i                    8    17 24 26 29 
+xd                   8    18 
+v6                   8    19 
+v7                   8    23 
+ret                  8    25 30 
+ret45                8    25 30 
+var1                 8    26 
+va5                  8    27 
+v9                   8    31 
+var10                8    32 
+var31                8    32 
