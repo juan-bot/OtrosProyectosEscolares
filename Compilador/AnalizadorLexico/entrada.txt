@@ -1,0 +1,106 @@
+//sadfg
+//hdis
+PROGRAM
+nombre
+VAR
+int id;
+char id2;
+string id3;
+double id4;
+double id4;
+BEGIN
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&dsjf);
+printf("$sdfg$");
+printf("$sdfg3456$ int $sdfg3456$"); //comentario------------
+if(x>=43){
+	id=34.475874;
+	id=3483;
+}
+else{
+	id=32345;
+	for(i=5;i<583;i++){//comentario------------
+		scanf("%d %d",&ret,&ret45); 					//error
+		id=(323+238)*456.8475;
+		for(i=0;i<53847;i++){						
+			scanf("%d %d",&ret,&ret45);//comentario-----//error
+			id=(33874+234)/4.384;
+			for(i=0;i<5837;i++){//comentario------------
+				scanf("%d %d",&ret,&ret45);   //error de proposicion lo marca cuando dentro de in ciclo o un if/else hay una proposicion mal.
+				id=383 	;							
+				printf("float $sdfg3456$ int $sdfg3456$");
+			}
+		}
+	}
+}
+
+if(x<=43){ 									 
+	id=34;
+}
+idf=33874.38478;
+printf("$sdfg3456$ int $sdfg3456$");
+printf("$sdfg3456$ int $sdfg3456$");
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&dsjf);
+printf("$sdfg$");
+printf("$sdfg3456$ int $sdfg3456$"); //comentario------------
+if(x>=43){
+	id=34.475874;
+	id=3483;
+}
+else{
+	id=32345;
+	for(i=5;i>583;i++){//comentario------------
+		scanf("%d %d",&ret,&ret45); 					//error
+		id=(323+238)*456.8475;
+		for(i=0;i<53847;i++){						
+			scanf("%d %d",&ret,&ret45);//comentario-----//error
+			id=(33874+234)/4.384;
+			for(i=0;i<5837;i++){//comentario------------
+				scanf("%d %d",&ret,&ret45);   //error de proposicion lo marca cuando dentro de in ciclo o un if/else hay una proposicion mal.
+				id=383 	;							
+				printf("float $sdfg3456$ int $sdfg3456$");
+			}
+		}
+	}
+}
+if(x<=43){ 									 
+	id=34;
+	if(x<=43){ 									 
+	id=34;
+}
+idf=33874.38478;
+printf("$sdfg3456$ int $sdfg3456$");
+printf("$sdfg3456$ int $sdfg3456$");
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+}
+idf=33874.38478;
+printf("$sdfg3456$ int $sdfg3456$");
+printf("$sdfg3456$ int $sdfg3456$");
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+if(x<=43){ 									 
+	id=34;
+}
+idf=33874.38478;
+printf("$sdfg3456$ int $sdfg3456$");
+printf("$sdfg3456$ int $sdfg3456$");
+scanf("%d %c %c",&id,&id2,&id3);
+scanf("%d %c %c",&id,&id2,&id3);
+if(x<=43){ 									 
+	id=34;
+}
+id__f=33874.38478;
+printf("$sdfg3456$ int $sdfg3456$");
+printf("$sdfg3456$ int $sdfg3456$");
+printf("sdfg3456$ int $sdfg3456$");
+printf("sdfg3456$ int $sdfg3456$");
+//-----------------------------codigooooo----------------
+idf=33874.38478;
+END
+@
