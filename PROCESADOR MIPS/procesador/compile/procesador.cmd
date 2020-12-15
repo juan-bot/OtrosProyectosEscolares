@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Procesador1.0\library.cfg"  -j "c:\My_Designs\Procesador1.0\procesador\projlib.cfg"  -d "c:\My_Designs\Procesador1.0\procesador\compile"   -work procesador  -dbg -e 100 -2002 "c:\\My_Designs\\Procesador1.0\\procesador\\src\\MUX5.vhd" 

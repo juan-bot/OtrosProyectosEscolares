@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+procesador=.\procesador\procesador.adf
+[Expand]
+procesador=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

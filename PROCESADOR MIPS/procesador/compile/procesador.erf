@@ -1,0 +1,6 @@
+MESSAGE "File: c:\My_Designs\Procesador1.0\procesador\src\MUX5.vhd" 
+MESSAGE "Compile Entity "MUX5"" 
+MESSAGE "Compile Architecture "MUX5" of Entity "MUX5"" 
+ERROR COMP96_0078: "Unknown identifier "s1"." "c:\My_Designs\Procesador1.0\procesador\src\MUX5.vhd" 18 20
+ERROR COMP96_0348: "Name on sensitivity list must denote a signal." "c:\My_Designs\Procesador1.0\procesador\src\MUX5.vhd" 18 20
+FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

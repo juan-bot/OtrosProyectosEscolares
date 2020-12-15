@@ -1,0 +1,90 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=procesador
+
+[Library]
+procesador=.\procesador.LIB
+
+[$LibMap$]
+procesador=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=Schematic
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+CDebugWatchList=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[file_out:/bloquees.bde]
+/..\compile\bloquees.vhd=-1
+
+[Files]
+/CONTROL.vhd=-1
+/Registros.vhd=-1
+/PC.vhd=-1
+/MemCodigo.vhd=-1
+/RegFile.vhd=-1
+/sumador1.vhd=-1
+/MUX1.vhd=-1
+/MUX2.vhd=-1
+/ExtensionSigno.vhd=-1
+/Multiplicador.vhd=-1
+/ALU.vhd=-1
+/MemoriadeDatos.vhd=-1
+/MUX3.vhd=-1
+/UC_ALU.vhd=-1
+/MUX5.vhd=-1
+/MUX4.vhd=-1
+/Restador.vhd=-1
+/RegistroDX.vhd=-1
+/RegistroFD.vhd=-1
+/RegistroXM.vhd=-1
+/RegistroMW.vhd=-1
+
+[Files.Data]
+.\src\CONTROL.vhd=VHDL Source Code
+.\src\Registros.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\MemCodigo.vhd=VHDL Source Code
+.\src\RegFile.vhd=VHDL Source Code
+.\src\sumador1.vhd=VHDL Source Code
+.\src\MUX1.vhd=VHDL Source Code
+.\src\MUX2.vhd=VHDL Source Code
+.\src\ExtensionSigno.vhd=VHDL Source Code
+.\src\Multiplicador.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\MemoriadeDatos.vhd=VHDL Source Code
+.\src\MUX3.vhd=VHDL Source Code
+.\src\UC_ALU.vhd=VHDL Source Code
+.\src\MUX5.vhd=VHDL Source Code
+.\src\MUX4.vhd=VHDL Source Code
+.\src\Restador.vhd=VHDL Source Code
+.\src\RegistroDX.vhd=VHDL Source Code
+.\src\RegistroFD.vhd=VHDL Source Code
+.\src\RegistroXM.vhd=VHDL Source Code
+.\src\RegistroMW.vhd=VHDL Source Code
+

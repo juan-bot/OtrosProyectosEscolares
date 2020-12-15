@@ -1,0 +1,12883 @@
+I 000036 40 3527 1599753950267 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599753950"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,360,460)
+  FREEID 65
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,340,460)
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,34,192,55)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,92,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 38
+  }
+  TEXT  44, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,168,92,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 43
+  }
+  TEXT  49, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,248,94,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 48
+  }
+  TEXT  54, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,328,146,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 53
+  }
+  TEXT  59, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,68,327,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 58
+  }
+  TEXT  64, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,148,327,172)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 63
+  }
+  PIN  23, 0, 0
+  {
+   COORD (180,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="wr"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r1(4:0)"
+    #NUMBER="6"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  43, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r2(4:0)"
+    #NUMBER="7"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  48, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rw(5:0)"
+    #NUMBER="8"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  53, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data_w(32:0)"
+    #NUMBER="9"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  58, 0, 0
+  {
+   COORD (360,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat1(31:0)"
+    #NUMBER="10"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  63, 0, 0
+  {
+   COORD (360,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat2(31:0)"
+    #NUMBER="11"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599754227344 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,300)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,240,300)
+  }
+ }
+}
+I 000036 40 1225 1599754332465 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754332"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,300)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,240,300)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (171,108,227,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,69,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (240,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1225 1599754348000 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754332"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,300)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,240,300)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (171,108,227,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,69,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (240,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1222 1599754348070 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754348"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,300)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,220,300)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (151,108,207,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,108,89,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (240,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599754459617 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,200)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,200)
+  }
+ }
+}
+I 000036 40 1673 1599754525226 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754525"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,200)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,76,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,128,76,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (120,88,167,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1673 1599754534983 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754525"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,200)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,76,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,128,76,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (120,88,167,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1674 1599754535013 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754535"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,200)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,96,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (100,88,147,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599754582186 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,260,420)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,260,420)
+  }
+ }
+}
+I 000036 40 1190 1599754606437 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754606"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,240,340)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,240,340)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,93,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,88,227,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED=""
+    #NAME="Pin1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (240,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED=""
+    #NAME="Pin2(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000035 40 268 1599754662721 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,260,460)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,260,460)
+  }
+ }
+}
+I 000036 40 1226 1599754738267 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754738"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,380)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,220,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,96,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (127,88,207,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (220,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Data(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1226 1599754747354 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754738"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,380)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,220,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,96,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (127,88,207,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (220,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Data(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1224 1599754747382 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754747"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,380)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,116,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (107,88,187,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (220,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Data(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1223 1599754783534 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599754783"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,380)
+  FREEID 11
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,116,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (107,128,187,152)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (220,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Data(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599754832840 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,200)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,200)
+  }
+ }
+}
+I 000036 40 2131 1599755037287 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755037"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,180,200)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,-40,180,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,8,77,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,77,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (102,68,167,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,160,112,187)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(7:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 2131 1599755043259 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755037"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,180,200)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,-40,180,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,8,77,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,77,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (102,68,167,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,160,112,187)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(7:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 2135 1599755043289 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755043"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,180,200)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-40,160,180)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,8,97,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,97,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,68,147,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,140,112,167)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(7:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599755288507 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,420,120)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,420,120)
+  }
+ }
+}
+I 000036 40 1232 1599755385443 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755385"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,20,380,100)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,20,380,100)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,129,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (266,48,367,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="entrada(15:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (380,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000035 40 268 1599755453492 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+ }
+}
+I 000036 40 1686 1599755505476 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755505"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,103,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,103,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (97,108,187,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1686 1599755526333 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755505"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,103,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,103,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (97,108,187,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1687 1599755526362 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755526"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,123,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,188,123,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (77,108,167,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato2(7:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(7:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1232 1599755526439 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755385"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,20,380,100)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,20,380,100)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,129,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (266,48,367,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="entrada(15:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (380,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1232 1599755549389 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755385"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,20,380,100)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,20,380,100)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,129,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (266,48,367,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="entrada(15:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (380,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1229 1599755549435 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755549"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,20,380,100)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,360,100)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,149,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (246,48,347,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="entrada(15:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (380,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000035 40 266 1599755585734 fub8
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,300,80)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,300,80)
+  }
+ }
+}
+I 000036 40 1228 1599755646450 fub8
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755646"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,300,80)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,300,80)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (186,28,287,52)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,103,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (300,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1228 1599755654210 fub8
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755646"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,300,80)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,300,80)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (186,28,287,52)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,103,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (300,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+V 000036 40 1225 1599755654239 fub8
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755654"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,300,80)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,280,80)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (166,28,267,52)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,123,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (300,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000035 40 268 1599755706046 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+ }
+}
+I 000036 40 1687 1599755775992 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755775"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,113,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,113,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,128,187,152)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data2(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1687 1599755789193 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755775"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,113,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,113,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,128,187,152)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data2(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000036 40 1687 1599755789229 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599755789"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,68,133,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,188,133,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,128,167,152)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data2(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 268 1599755885724 fub10
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,480)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,480)
+  }
+ }
+}
+I 000037 40 2585 1599756084047 fub10
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756084"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,480)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,480)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,96,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,368,103,392)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,14,172,48)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 13
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,448,192,467)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (226,188,327,212)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 23
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,380)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (160,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="WE"
+    #NUMBER="3"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,480)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rd"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 2585 1599756088254 fub10
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756084"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,480)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,340,480)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,96,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,368,103,392)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,14,172,48)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 13
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,448,192,467)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (226,188,327,212)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 23
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,380)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (160,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="WE"
+    #NUMBER="3"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,480)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rd"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 2597 1599756088286 fub10
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756088"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,480)
+  FREEID 25
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,320,460)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,116,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,368,123,392)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,34,172,68)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 13
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,428,192,447)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (206,188,307,212)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 23
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Addr(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,380)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (160,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="WE"
+    #NUMBER="3"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,480)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rd"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 268 1599756153005 fub11
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,240)
+  }
+ }
+}
+V 000036 40 301 1599756153041 fub11
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756153"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,240)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,240)
+  }
+ }
+}
+I 000036 40 266 1599756182120 fub12
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,80,140)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,80,140)
+  }
+ }
+}
+I 000037 40 2141 1599756335321 fub12
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756335"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,140,220)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,-40,140,220)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,-12,113,12)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,128,113,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (26,68,127,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,180,72,207)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data0(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (140,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 2141 1599756341953 fub12
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756335"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,140,220)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,-40,140,220)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,-12,113,12)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,128,113,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (26,68,127,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,180,72,207)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data0(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (140,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,0), (10,0), (0,-10), (-10,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 2145 1599756341987 fub12
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756341"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,140,220)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-40,120,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,-12,133,12)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,133,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (6,68,107,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,160,72,187)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data0(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (140,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+V 000037 40 2146 1599756352835 fub12
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599756352"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-40,180,220)
+  FREEID 21
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-40,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,-12,133,12)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,133,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (46,68,147,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,160,72,187)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data0(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="4"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+V 000036 40 1226 1599757244808 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757244"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,240,260)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-20,220,260)
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (151,108,207,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,108,89,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  8, 0, 0
+  {
+   COORD (240,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 268 1599757542564 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #FUB="1"
+  #LANGUAGE="VHDL"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 2
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+ }
+}
+I 000037 40 1219 1599757584394 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757584"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,69,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (131,108,187,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 1219 1599757598234 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757584"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,69,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (131,108,187,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,0), (-10,-10), (-10,10), (0,0) )
+    FILL (0,(0,0,0),0)
+   }
+  }
+ }
+}
+I 000037 40 1216 1599757598264 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757598"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,280)
+  FREEID 10
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,280)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,89,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (111,108,167,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000037 40 1216 1599757676005 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757676"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,180)
+  FREEID 11
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,180)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,89,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (111,108,167,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000037 40 1213 1599757706744 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599757706"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,140)
+  FREEID 11
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,140)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,68,89,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (111,28,167,52)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="D(7:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (200,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="Q(7:0)"
+    #NUMBER="2"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000037 40 1695 1599758069770 fub13
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599758069"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,180)
+    FREEID 12
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,180,160)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+      }
+      COORD (0,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 10
+      ALIGN 4
+      RECT (25,106,105,138)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="D(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,80)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,68,89,92)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="Q(31:0)"
+        #NUMBER="2"
+        #SIDE="right"
+      }
+      COORD (200,40)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (111,28,167,52)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}
+I 000037 40 1483 1599759467777 fub13
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599759467"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,220)
+    FREEID 16
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,180,200)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+        #NUMBER="0"
+      }
+      COORD (0,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,110,50,134)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 10
+    }
+    PIN 12,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="inPC(31:0)"
+      }
+      COORD (0,160)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 13,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 12
+      ALIGN 4
+      RECT (25,146,105,178)
+    }
+    PIN 14,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="outPC(31:0)"
+      }
+      COORD (200,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 15,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 14
+      ALIGN 6
+      RECT (95,66,175,98)
+    }
+  }
+}
+I 000037 40 1525 1599766191510 fub13
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599766191"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,220)
+    FREEID 16
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,180,200)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+        #NUMBER="0"
+      }
+      COORD (0,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,110,50,134)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 10
+    }
+    PIN 12,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="inPC(63:0)"
+        #NUMBER="0"
+      }
+      COORD (0,160)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 13,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,150,118,174)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 12
+    }
+    PIN 14,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="outPC(63:0)"
+        #NUMBER="0"
+      }
+      COORD (200,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 15,0,0
+    {
+      TEXT "$#NAME"
+      RECT (70,70,175,94)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 14
+    }
+  }
+}
+I 000036 40 1235 1599766196500 fub4
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599766196"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,220,400)
+    FREEID 12
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,200,380)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="instruccion(31:0)"
+      }
+      COORD (220,180)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 10
+      ALIGN 6
+      RECT (105,166,195,198)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="addr(63:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,116,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000037 40 1460 1599766219304 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599766219"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,180)
+  FREEID 17
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-4,180,162)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,50,50,74)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,110,118,134)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,30,175,54)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="inPC(63:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="outPC(63:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1346 1599766896433 fub3
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599766896"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,180,220)
+    FREEID 15
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,160,200)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r(63:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (180,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (100,88,147,112)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="s1(63:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,96,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 1163 1599767110302 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599767110"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,220,400)
+  FREEID 13
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,124,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (53,10,195,34)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 10
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="addr(63:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (220,20)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="instruccion(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 4224 1599787189810 fub1
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599787189"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,0,360,480)
+    FREEID 67
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,20,340,460)
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="wr"
+        #NUMBER="5"
+        #SIDE="top"
+      }
+      COORD (180,0)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (168,34,192,55)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 23
+      ORIENTATION 5
+    }
+    PIN 38,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r1(4:0)"
+        #NUMBER="6"
+        #SIDE="left"
+      }
+      COORD (0,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 39,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,88,92,112)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 38
+    }
+    PIN 43,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r2(4:0)"
+        #NUMBER="7"
+        #SIDE="left"
+      }
+      COORD (0,180)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 44,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,168,92,192)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 43
+    }
+    PIN 48,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="rw(4:0)"
+        #NUMBER="8"
+        #SIDE="left"
+      }
+      COORD (0,260)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 49,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,248,94,272)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 48
+    }
+    PIN 53,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="data_w(31:0)"
+        #NUMBER="9"
+        #SIDE="left"
+      }
+      COORD (0,340)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 54,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,328,146,352)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 53
+    }
+    PIN 58,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dat1(31:0)"
+        #NUMBER="10"
+        #SIDE="right"
+      }
+      COORD (360,80)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 59,0,0
+    {
+      TEXT "$#NAME"
+      RECT (238,68,327,92)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 58
+    }
+    PIN 63,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dat2(31:0)"
+        #NUMBER="11"
+        #SIDE="right"
+      }
+      COORD (360,160)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 64,0,0
+    {
+      TEXT "$#NAME"
+      RECT (238,148,327,172)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 63
+    }
+    PIN 65,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+      }
+      COORD (0,380)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 66,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 65
+      ALIGN 4
+      RECT (25,366,185,398)
+    }
+  }
+}
+I 000036 40 2094 1599787442587 fub7
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599787442"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,340)
+    FREEID 19
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,180,320)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="salida(31:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (200,120)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (77,108,167,132)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 15,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="sel"
+      }
+      COORD (0,240)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 16,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 15
+      ALIGN 4
+      RECT (25,226,105,258)
+    }
+    PIN 17,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="dato0(31:0)"
+      }
+      COORD (0,280)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 18,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 17
+      ALIGN 4
+      RECT (25,266,105,298)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dato1(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,123,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 2019 1599787468465 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599787468"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-2,180,300)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,134,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (66,108,167,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (90,288,114,315)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 8
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,190,125,214)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (100,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel"
+    #NUMBER="0"
+    #SIDE="bottom"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="dato0(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1995 1599787480244 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599787480"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-1,180,318)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,134,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (66,108,167,132)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,250,52,274)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 15
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,190,125,214)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="dato0(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1999 1599792188276 fub9
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599792188"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,380)
+    FREEID 21
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,180,360)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="res(31:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (200,140)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (88,128,167,152)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 15,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="codigo(2:0)"
+      }
+      COORD (0,240)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 16,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 15
+      ALIGN 4
+      RECT (25,226,105,258)
+    }
+    PIN 17,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="op1(31:0)"
+      }
+      COORD (0,280)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 18,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 17
+      ALIGN 4
+      RECT (25,266,105,298)
+    }
+    PIN 19,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="op2(31:0)"
+      }
+      COORD (0,320)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 20,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 19
+      ALIGN 4
+      RECT (25,306,105,338)
+    }
+  }
+}
+I 000036 40 1947 1599792218293 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599792218"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,380)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,180,360)
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,48,167,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,130,124,154)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 15
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,190,110,214)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  TEXT  20, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,250,110,274)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 19
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="codigo(2:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op1(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  19, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000037 40 2851 1599843681546 fub10
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599843681"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,0,340,480)
+    FREEID 25
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,20,320,460)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="we"
+        #NUMBER="3"
+        #SIDE="top"
+      }
+      COORD (160,0)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (148,34,172,68)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 13
+      ORIENTATION 5
+    }
+    PIN 18,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="rd"
+        #NUMBER="4"
+        #SIDE="bottom"
+      }
+      COORD (180,480)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,-20))
+      }
+    }
+    TEXT 19,0,0
+    {
+      TEXT "$#NAME"
+      RECT (168,428,192,447)
+      ALIGN 9
+      MARGINS (1,1)
+      PARENT 18
+      ORIENTATION 5
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="salida(31:0)"
+        #NUMBER="5"
+        #SIDE="right"
+      }
+      COORD (340,200)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (206,188,307,212)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 23
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="addr(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,88,116,112)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dato(31:0)"
+        #NUMBER="2"
+        #SIDE="left"
+      }
+      COORD (0,380)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,368,123,392)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}
+I 000036 40 2345 1599844664425 fub5
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1599844664"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-60,180,200)
+    FREEID 25
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,-40,160,180)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="d1(4:0)"
+        #NUMBER="3"
+        #SIDE="left"
+      }
+      COORD (0,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,88,97,112)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 18,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="sal(4:0)"
+        #NUMBER="4"
+        #SIDE="right"
+      }
+      COORD (180,80)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 19,0,0
+    {
+      TEXT "$#NAME"
+      RECT (82,68,147,92)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 18
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="sel"
+        #NUMBER="5"
+        #SIDE="bottom"
+      }
+      COORD (100,200)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,-20))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (88,140,112,167)
+      ALIGN 9
+      MARGINS (1,1)
+      PARENT 23
+      ORIENTATION 5
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="d0(4:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,20)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,8,97,32)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 2135 1599844674060 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1599844674"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-60,180,200)
+  FREEID 26
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-40,160,180)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,8,97,32)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,97,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,147,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,140,112,167)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(4:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(4:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(4:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+ }
+}
+I 000036 40 1725 1600126061901 fub3
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1600126061"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,180,220)
+    FREEID 17
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,160,200)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r(63:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (180,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (89,88,147,112)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 15,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="s2(31:0)"
+      }
+      COORD (0,100)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 16,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 15
+      ALIGN 4
+      RECT (25,86,95,118)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="s1(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,107,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 1613 1600126086468 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1600126086"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,180,220)
+  FREEID 18
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,48,107,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (89,88,147,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,150,98,174)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 15
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r(63:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="s2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1769 1600126092446 fub3
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1600126092"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,180,220)
+    FREEID 18
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,160,200)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r(31:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (180,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (89,88,147,112)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 15,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="s2(31:0)"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,160)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 16,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,150,98,174)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 15
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="s1(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,107,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 1166 1600126308721 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1600126308"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,220,400)
+  FREEID 13
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,380)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,124,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (53,110,195,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 10
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="addr(63:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (220,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="instruccion(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 3877 1600126471407 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1600126471"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,360,480)
+  FREEID 68
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,340,460)
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,34,192,55)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,92,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 38
+  }
+  TEXT  44, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,168,92,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 43
+  }
+  TEXT  49, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,248,94,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 48
+  }
+  TEXT  54, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,328,146,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 53
+  }
+  TEXT  59, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,68,327,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 58
+  }
+  TEXT  64, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,308,327,332)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 63
+  }
+  TEXT  66, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,370,50,394)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 65
+  }
+  PIN  23, 0, 0
+  {
+   COORD (180,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="wr"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r1(4:0)"
+    #NUMBER="6"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  43, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r2(4:0)"
+    #NUMBER="7"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  48, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rw(4:0)"
+    #NUMBER="8"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  53, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data_w(31:0)"
+    #NUMBER="9"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  58, 0, 0
+  {
+   COORD (360,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat1(31:0)"
+    #NUMBER="10"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  63, 0, 0
+  {
+   COORD (360,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat2(31:0)"
+    #NUMBER="11"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  65, 0, 0
+  {
+   COORD (0,380)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1967 1600126538861 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1600126538"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,380)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,19,180,361)
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,208,167,232)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,20,172,119)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 5
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,50,110,74)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  TEXT  20, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,130,110,154)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 19
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (160,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="codigo(2:0)"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op1(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  19, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000037 40 2590 1601076000452 fub10
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076000"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,340,480)
+  FREEID 26
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,320,480)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,124,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,368,123,392)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,40,152,66)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 13
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (208,33,232,52)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 8
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (206,188,307,212)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 23
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="addr(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,380)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato(31:0)"
+    #NUMBER="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="we"
+    #NUMBER="3"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (220,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rd"
+    #NUMBER="4"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (340,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1167 1601076216701 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076216"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,220,240)
+  FREEID 13
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-8,200,227)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,124,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (53,110,195,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 10
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="addr(63:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (220,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="instruccion(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 2133 1601076339597 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076339"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-60,180,200)
+  FREEID 26
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-20,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,97,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,97,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,88,147,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,-27,112,0)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(4:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(4:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(4:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,-60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+ }
+}
+I 000036 40 2132 1601076349228 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076349"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-60,180,200)
+  FREEID 26
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-20,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,97,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,97,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,88,147,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,0,112,27)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(4:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(4:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(4:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,-60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+ }
+}
+I 000036 40 2132 1601076380865 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076380"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-60,180,200)
+  FREEID 26
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-20,160,200)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,97,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,128,97,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,88,147,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,0,112,27)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 8
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d0(4:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="d1(4:0)"
+    #NUMBER="3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sal(4:0)"
+    #NUMBER="4"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  23, 0, 0
+  {
+   COORD (100,-60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="sel"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+ }
+}
+I 000036 40 2014 1601076518190 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076518"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,300)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,14,180,279)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,134,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (66,148,167,172)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (86,5,110,32)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 5
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,190,125,214)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (100,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="dato0(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1967 1601076603857 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076603"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,300)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,15,180,285)
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,148,167,172)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,20,172,119)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 5
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,110,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  TEXT  20, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,210,110,234)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 19
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (160,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="codigo(2:0)"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op1(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  19, 0, 0
+  {
+   COORD (0,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000039 40 4656 1601076640801 control
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601076640"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,260,360)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,240,360)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,127,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (159,30,235,54)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,131,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (176,70,235,94)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,110,64,134)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (121,110,235,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,150,235,174)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (161,190,235,214)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (159,230,235,254)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (181,270,235,294)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (180,310,235,334)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="funcion(5:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (260,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_data"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="opcode(5:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (260,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_wr"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="zero"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (260,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Ctr_ALU(2:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (260,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_rd"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (260,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_wr"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (260,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Op_ALU"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (260,280)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="PC_in"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (260,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel_rd"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+ }
+}
+I 000040 40 1562 1601077449628 sumador2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601077449"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,120)
+  FREEID 8
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,120)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,98,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (116,30,195,54)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,98,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="s1(31:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (220,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="res(31:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="s2(31:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000037 40 1590 1601077541283 fub13
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601077541"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,180)
+    FREEID 17
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,-4,180,162)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,50,50,74)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 10
+    }
+    PIN 12,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="inPC(31:0)"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 13,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,110,118,134)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 12
+    }
+    PIN 14,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="outPC(31:0)"
+        #NUMBER="0"
+        #SIDE="right"
+      }
+      COORD (200,40)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 15,0,0
+    {
+      TEXT "$#NAME"
+      RECT (70,30,175,54)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 14
+    }
+  }
+}
+I 000036 40 1631 1601077661232 fub4
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601077661"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,220,240)
+    FREEID 14
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,-8,200,227)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="instruccion(31:0)"
+        #NUMBER="0"
+        #SIDE="right"
+      }
+      COORD (220,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (53,110,195,134)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 10
+    }
+    PIN 12,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+      }
+      COORD (0,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 13,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 12
+      ALIGN 4
+      RECT (25,66,115,98)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="addr(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,40)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,28,124,52)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+V 000036 40 1535 1601077692163 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601077692"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,220,240)
+  FREEID 15
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-8,200,227)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,28,124,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (53,110,195,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (40,168,65,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="addr(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (220,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="instruccion(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+V 000036 40 2015 1601078829701 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601078829"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,300)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,14,180,279)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,134,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (66,148,167,172)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,20,112,47)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 5
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,190,125,214)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  PIN  3, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dato1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="salida(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (100,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="dato0(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000036 40 1346 1601078892713 fub3
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601078892"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,180,220)
+    FREEID 18
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,160,200)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="r(31:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (180,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (89,88,147,112)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="s1(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,107,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+V 000036 40 1228 1601078909562 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601078909"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (-100,-20,180,120)
+  FREEID 18
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (-80,-9,160,107)
+  }
+  TEXT  4, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-66,48,7,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 3
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (89,48,147,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  PIN  3, 0, 0
+  {
+   COORD (-100,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="s1(31:0)"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  13, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+V 000037 40 3198 1601079073643 fub10
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601079073"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,0,340,500)
+    FREEID 27
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,20,320,480)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="we"
+        #NUMBER="3"
+        #SIDE="top"
+      }
+      COORD (140,0)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (128,40,152,66)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 13
+      ORIENTATION 5
+    }
+    PIN 18,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="rd"
+        #NUMBER="4"
+        #SIDE="top"
+      }
+      COORD (220,0)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 19,0,0
+    {
+      TEXT "$#NAME"
+      RECT (208,33,232,52)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 18
+      ORIENTATION 8
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="salida(31:0)"
+        #NUMBER="5"
+        #SIDE="right"
+      }
+      COORD (340,200)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (206,188,307,212)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 23
+    }
+    PIN 25,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+      }
+      COORD (0,420)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 26,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 25
+      ALIGN 4
+      RECT (25,406,175,438)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="addr(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,88,124,112)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dato(31:0)"
+        #NUMBER="2"
+        #SIDE="left"
+      }
+      COORD (0,380)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,368,123,392)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}
+I 000036 40 3895 1601079199092 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601079199"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,360,480)
+  FREEID 68
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,340,460)
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,34,192,55)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,88,92,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 38
+  }
+  TEXT  44, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,168,92,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 43
+  }
+  TEXT  49, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,248,94,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 48
+  }
+  TEXT  54, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,328,146,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 53
+  }
+  TEXT  59, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,68,327,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 58
+  }
+  TEXT  64, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,308,327,332)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 63
+  }
+  TEXT  66, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,430,50,454)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 65
+  }
+  PIN  23, 0, 0
+  {
+   COORD (180,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="wr"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r1(4:0)"
+    #NUMBER="6"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  43, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="r2(4:0)"
+    #NUMBER="7"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  48, 0, 0
+  {
+   COORD (0,260)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rw(4:0)"
+    #NUMBER="8"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  53, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data_w(31:0)"
+    #NUMBER="9"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  58, 0, 0
+  {
+   COORD (360,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat1(31:0)"
+    #NUMBER="10"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  63, 0, 0
+  {
+   COORD (360,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat2(31:0)"
+    #NUMBER="11"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  65, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+V 000040 40 1621 1601079335857 sumador2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601079335"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,220,200)
+  FREEID 9
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,0,200,200)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,98,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (116,50,195,74)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,130,98,154)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="s1(31:0)"
+    #NUMBER="0"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (220,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="res(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,140)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="s2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+V 000037 40 1460 1601079400109 fub13
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601079400"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,180)
+  FREEID 17
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-4,180,162)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (40,108,65,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,10,118,34)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,70,175,94)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="inPC(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="outPC(31:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000036 40 2508 1601142108920 fub9
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601142108"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,200,300)
+    FREEID 23
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,15,180,285)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="res(31:0)"
+        #NUMBER="3"
+        #SIDE="right"
+      }
+      COORD (200,160)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (88,148,167,172)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 15,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="codigo(2:0)"
+        #NUMBER="0"
+        #SIDE="top"
+      }
+      COORD (160,-20)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 16,0,0
+    {
+      TEXT "$#NAME"
+      RECT (148,20,172,119)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 15
+      ORIENTATION 5
+    }
+    PIN 17,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="op1(31:0)"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 18,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,70,110,94)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 17
+    }
+    PIN 19,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="op2(31:0)"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,220)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 20,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,210,110,234)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 19
+    }
+    PIN 21,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="cero"
+      }
+      COORD (200,200)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 22,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 21
+      ALIGN 6
+      RECT (95,186,175,218)
+    }
+  }
+}
+V 000036 40 2353 1601142124435 fub9
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601142124"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,200,300)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,15,180,285)
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (88,148,167,172)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 13
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (148,20,172,119)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 15
+   ORIENTATION 5
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,110,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 17
+  }
+  TEXT  20, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,210,110,234)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 19
+  }
+  TEXT  22, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,20,72,60)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 21
+   ORIENTATION 6
+  }
+  PIN  13, 0, 0
+  {
+   COORD (200,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="res(31:0)"
+    #NUMBER="3"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  15, 0, 0
+  {
+   COORD (160,-20)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="codigo(2:0)"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  17, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op1(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  19, 0, 0
+  {
+   COORD (0,220)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="op2(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  21, 0, 0
+  {
+   COORD (60,-20)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="cero"
+    #NUMBER="0"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+ }
+}
+V 000036 40 2344 1601222794258 fub5
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601222794"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-60,180,220)
+    FREEID 26
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,-20,160,200)
+    }
+    PIN 13,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="d1(31:0)"
+        #NUMBER="3"
+        #SIDE="left"
+      }
+      COORD (0,140)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,128,97,152)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 13
+    }
+    PIN 18,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="sal(4:0)"
+        #NUMBER="4"
+        #SIDE="right"
+      }
+      COORD (180,100)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 19,0,0
+    {
+      TEXT "$#NAME"
+      RECT (82,88,147,112)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 18
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="sel"
+        #NUMBER="5"
+        #SIDE="top"
+      }
+      COORD (100,-60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (88,0,112,27)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 23
+      ORIENTATION 8
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="d0(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,40)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,28,97,52)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+  }
+}
+I 000036 40 4025 1601222998097 fub1
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601222998"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,0,360,600)
+    FREEID 71
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,20,340,580)
+    }
+    PIN 23,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LABEL="In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="wr"
+        #NUMBER="5"
+        #SIDE="top"
+      }
+      COORD (180,0)
+      LINE 1,0,0
+      {
+        OUTLINE 0,1,(64,92,92)
+        POINTS ((0,0),(0,20))
+      }
+    }
+    TEXT 24,0,0
+    {
+      TEXT "$#NAME"
+      RECT (168,34,192,55)
+      ALIGN 1
+      MARGINS (1,1)
+      PARENT 23
+      ORIENTATION 5
+    }
+    PIN 48,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="rw(4:0)"
+        #NUMBER="8"
+        #SIDE="left"
+      }
+      COORD (0,260)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 49,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,248,94,272)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 48
+    }
+    PIN 53,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="data_w(31:0)"
+        #NUMBER="9"
+        #SIDE="left"
+      }
+      COORD (0,340)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 54,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,328,146,352)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 53
+    }
+    PIN 58,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dat1(31:0)"
+        #NUMBER="10"
+        #SIDE="right"
+      }
+      COORD (360,80)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 59,0,0
+    {
+      TEXT "$#NAME"
+      RECT (238,68,327,92)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 58
+    }
+    PIN 63,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="dat2(31:0)"
+        #NUMBER="11"
+        #SIDE="right"
+      }
+      COORD (360,320)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 64,0,0
+    {
+      TEXT "$#NAME"
+      RECT (238,308,327,332)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 63
+    }
+    PIN 65,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="clk"
+        #NUMBER="0"
+        #SIDE="left"
+      }
+      COORD (0,440)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 66,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,430,50,454)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 65
+    }
+    PIN 67,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="rs(31:0)"
+      }
+      COORD (0,480)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 68,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 67
+      ALIGN 4
+      RECT (25,466,185,498)
+    }
+    PIN 69,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="rt(31:0)"
+      }
+      COORD (0,520)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 70,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 69
+      ALIGN 4
+      RECT (25,506,185,538)
+    }
+  }
+}
+V 000036 40 1351 1601223003602 fub6
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601223003"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,0,380,120)
+    FREEID 10
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,20,360,100)
+    }
+    PIN 3,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LABEL="Bus In"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="entrada(31:0)"
+        #NUMBER="1"
+        #SIDE="left"
+      }
+      COORD (0,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#NAME"
+      RECT (34,48,149,72)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 3
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LABEL="Bus Out"
+        #LENGTH="20"
+        #MODIFIED="1"
+        #NAME="salida(31:0)"
+        #NUMBER="2"
+        #SIDE="right"
+      }
+      COORD (380,60)
+      LINE 1,0,0
+      {
+        OUTLINE 0,3,(64,92,92)
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (246,48,347,72)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}
+I 000039 40 4646 1601223629657 control
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #HDL_ENTRIES="library IEEE;\nuse ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601223629"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-20,260,420)
+    FREEID 26
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,240,400)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="zero"
+        #NUMBER="0"
+      }
+      COORD (0,120)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,110,64,134)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 10
+    }
+    PIN 12,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="Ctr_ALU(2:0)"
+        #NUMBER="0"
+      }
+      COORD (260,120)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 13,0,0
+    {
+      TEXT "$#NAME"
+      RECT (121,110,235,134)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 12
+    }
+    PIN 14,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="Mem_rd"
+        #NUMBER="0"
+      }
+      COORD (260,160)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 15,0,0
+    {
+      TEXT "$#NAME"
+      RECT (163,150,235,174)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 14
+    }
+    PIN 16,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="Mem_wr"
+        #NUMBER="0"
+      }
+      COORD (260,200)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 17,0,0
+    {
+      TEXT "$#NAME"
+      RECT (161,190,235,214)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 16
+    }
+    PIN 2,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="funcion(31:0)"
+        #NUMBER="0"
+      }
+      COORD (0,40)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    PIN 20,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="PC_in"
+        #NUMBER="0"
+      }
+      COORD (260,280)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 21,0,0
+    {
+      TEXT "$#NAME"
+      RECT (181,270,235,294)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 20
+    }
+    PIN 22,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="sel_rd"
+        #NUMBER="0"
+      }
+      COORD (260,320)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 23,0,0
+    {
+      TEXT "$#NAME"
+      RECT (180,310,235,334)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 22
+    }
+    PIN 24,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="ALU_op"
+      }
+      COORD (260,360)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 25,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 24
+      ALIGN 6
+      RECT (125,346,235,378)
+    }
+    TEXT 3,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,30,127,54)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 2
+    }
+    PIN 4,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="AR_data"
+        #NUMBER="0"
+      }
+      COORD (260,40)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 5,0,0
+    {
+      TEXT "$#NAME"
+      RECT (159,30,235,54)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 4
+    }
+    PIN 6,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="opcode(31:0)"
+        #NUMBER="0"
+      }
+      COORD (0,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 7,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,70,131,94)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 6
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="AR_wr"
+        #NUMBER="0"
+      }
+      COORD (260,80)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (176,70,235,94)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}
+V 000036 40 3757 1601223759309 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601223759"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,360,600)
+  FREEID 72
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,20,340,580)
+  }
+  TEXT  24, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (168,34,192,55)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 23
+   ORIENTATION 5
+  }
+  TEXT  49, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,328,94,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 48
+  }
+  TEXT  54, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34,388,146,412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 53
+  }
+  TEXT  59, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,68,327,92)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 58
+  }
+  TEXT  64, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (238,308,327,332)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 63
+  }
+  TEXT  66, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,530,50,554)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 65
+  }
+  TEXT  68, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,93,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 67
+  }
+  TEXT  70, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,150,88,174)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 69
+  }
+  PIN  23, 0, 0
+  {
+   COORD (180,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="wr"
+    #NUMBER="5"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,1, (64,92,92)
+    POINTS ( (0,0), (0,20) )
+   }
+  }
+  PIN  48, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="rw(4:0)"
+    #NUMBER="8"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  53, 0, 0
+  {
+   COORD (0,400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="data_w(31:0)"
+    #NUMBER="9"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  58, 0, 0
+  {
+   COORD (360,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat1(31:0)"
+    #NUMBER="10"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  63, 0, 0
+  {
+   COORD (360,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #MODIFIED="1"
+    #NAME="dat2(31:0)"
+    #NUMBER="11"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    OUTLINE 0,3, (64,92,92)
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+  PIN  65, 0, 0
+  {
+   COORD (0,540)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="clk"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  67, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="rs(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  69, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="rt(31:0)"
+    #NUMBER="0"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+ }
+}
+I 000039 40 4391 1601223856914 control
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601223856"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,260,420)
+  FREEID 27
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-1,240,380)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,138,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (159,30,235,54)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,142,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (176,70,235,94)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,341,92,380)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (121,110,235,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,150,235,174)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (161,190,235,214)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (181,270,235,294)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (180,310,235,334)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,350,235,374)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="funcion(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (260,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_data"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="opcode(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (260,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_wr"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (80,420)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="zero"
+    #NUMBER="0"
+    #SIDE="bottom"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (260,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Ctr_ALU(2:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (260,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_rd"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (260,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_wr"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (260,280)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="PC_in"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (260,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel_rd"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (260,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="ALU_op"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+I 000039 40 4432 1601224043312 control
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+  #LANGUAGE="VHDL"
+  #MODIFIED="1601224043"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,-20,260,420)
+  FREEID 27
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20,-1,240,380)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,30,138,54)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (159,110,235,134)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (25,70,142,94)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (176,70,235,94)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,341,92,380)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (121,230,235,254)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,150,235,174)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (161,190,235,214)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (181,270,235,294)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (180,310,235,334)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (163,350,235,374)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  PIN  2, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="funcion(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (260,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_data"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="opcode(31:0)"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (20,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (260,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="AR_wr"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (80,420)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="zero"
+    #NUMBER="0"
+    #SIDE="bottom"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (0,-20) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (260,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #DOWNTO="1"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Ctr_ALU(2:0)"
+    #NUMBER="0"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (260,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_rd"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (260,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="Mem_wr"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (260,280)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="PC_in"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (260,320)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="sel_rd"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-20,0), (0,0) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (260,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="20"
+    #MDA_RECORD_TOKEN="OTHER"
+    #NAME="ALU_op"
+    #NUMBER="0"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (0,0), (-20,0) )
+   }
+  }
+ }
+}
+V 000039 40 4317 1601318027705 control
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #DESCRIPTION=""
+    #HDL_ENTRIES="library IEEE;\nuse ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1601318027"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    RECT (0,-60,260,420)
+    FREEID 28
+  }
+  BODY
+  {
+    RECT 1,-1,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,-41,240,380)
+    }
+    PIN 10,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #LENGTH="20"
+        #NAME="zero"
+        #NUMBER="0"
+        #SIDE="bottom"
+      }
+      COORD (80,420)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(0,-20))
+      }
+    }
+    TEXT 11,0,0
+    {
+      TEXT "$#NAME"
+      RECT (68,341,92,380)
+      ALIGN 9
+      MARGINS (1,1)
+      PARENT 10
+      ORIENTATION 8
+    }
+    PIN 14,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="Mem_rd"
+        #NUMBER="0"
+      }
+      COORD (260,160)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 15,0,0
+    {
+      TEXT "$#NAME"
+      RECT (163,150,235,174)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 14
+    }
+    PIN 16,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="Mem_wr"
+        #NUMBER="0"
+      }
+      COORD (260,200)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 17,0,0
+    {
+      TEXT "$#NAME"
+      RECT (161,190,235,214)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 16
+    }
+    PIN 20,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="PC_in"
+        #NUMBER="0"
+      }
+      COORD (260,280)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 21,0,0
+    {
+      TEXT "$#NAME"
+      RECT (181,270,235,294)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 20
+    }
+    PIN 22,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="sel_rd"
+        #NUMBER="0"
+      }
+      COORD (260,320)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 23,0,0
+    {
+      TEXT "$#NAME"
+      RECT (180,310,235,334)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 22
+    }
+    PIN 24,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="ALU_op"
+        #NUMBER="0"
+      }
+      COORD (260,360)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 25,0,0
+    {
+      TEXT "$#NAME"
+      RECT (163,350,235,374)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 24
+    }
+    PIN 26,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="ALU_op2(1:0)"
+      }
+      COORD (260,40)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(-20,0))
+      }
+    }
+    TEXT 27,0,0
+    {
+      TEXT "$#NAME"
+      MARGINS (1,1)
+      PARENT 26
+      ALIGN 6
+      RECT (125,26,235,58)
+    }
+    PIN 4,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="AR_data"
+        #NUMBER="0"
+        #SIDE="right"
+      }
+      COORD (260,120)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 5,0,0
+    {
+      TEXT "$#NAME"
+      RECT (159,110,235,134)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 4
+    }
+    PIN 6,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="IN"
+        #DOWNTO="1"
+        #LENGTH="20"
+        #NAME="opcode(31:0)"
+        #NUMBER="0"
+      }
+      COORD (0,80)
+      LINE 2,0,0
+      {
+        POINTS ((0,0),(20,0))
+      }
+    }
+    TEXT 7,0,0
+    {
+      TEXT "$#NAME"
+      RECT (25,70,142,94)
+      ALIGN 4
+      MARGINS (1,1)
+      PARENT 6
+    }
+    PIN 8,0,0
+    {
+      VARIABLES
+      {
+        #DIRECTION="OUT"
+        #LENGTH="20"
+        #NAME="AR_wr"
+        #NUMBER="0"
+      }
+      COORD (260,80)
+      LINE 2,0,0
+      {
+        POINTS ((-20,0),(0,0))
+      }
+    }
+    TEXT 9,0,0
+    {
+      TEXT "$#NAME"
+      RECT (176,70,235,94)
+      ALIGN 6
+      MARGINS (1,1)
+      PARENT 8
+    }
+  }
+}

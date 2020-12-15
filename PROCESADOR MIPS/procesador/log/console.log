@@ -1,0 +1,133 @@
+# Breakpoint set on signal "clk".
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Error: COMP96_0143: RegistroDX.vhd : (50, 7): Object "pc2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (51, 4): Object "sel_rd2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (52, 4): Object "AR_wr2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (53, 4): Object "op1_ALU2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (54, 4): Object "op2_ALU2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (55, 4): Object "ALU_op2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (56, 4): Object "Mem_wr2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (57, 4): Object "Mem_rd2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (58, 4): Object "AR_data2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (59, 4): Object "BRQ_ctr2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (60, 4): Object "data12" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (61, 4): Object "data22" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (62, 4): Object "ext_signo2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (63, 4): Object "mult2" may not be written
+# Error: COMP96_0143: RegistroDX.vhd : (64, 4): Object "rt2" may not be written
+# Error: COMP96_0367: RegistroDX.vhd : (64, 11): Improper array length. Actual length is 5. Expected length is 32.
+# Error: COMP96_0143: RegistroDX.vhd : (65, 4): Object "rd2" may not be written
+# Error: COMP96_0367: RegistroDX.vhd : (65, 11): Improper array length. Actual length is 5. Expected length is 32.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Error: COMP96_0367: RegistroDX.vhd : (64, 11): Improper array length. Actual length is 5. Expected length is 32.
+# Error: COMP96_0367: RegistroDX.vhd : (65, 11): Improper array length. Actual length is 5. Expected length is 32.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work procesador -2002  $DSN/src/CONTROL.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\CONTROL.vhd
+# Compile Entity "CONTROL"
+# Compile Architecture "CONTROL" of Entity "CONTROL"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Error: COMP96_0367: RegistroDX.vhd : (65, 13): Improper array length. Actual length is 6. Expected length is 5.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -work procesador -2002  $DSN/src/RegistroDX.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\RegistroDX.vhd
+# Compile Entity "RegistroDX"
+# Compile Architecture "RegistroDX" of Entity "RegistroDX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work procesador -2002  $DSN/src/CONTROL.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\CONTROL.vhd
+# Compile Entity "CONTROL"
+# Compile Architecture "CONTROL" of Entity "CONTROL"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work procesador -2002  $DSN/src/PC.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\PC.vhd
+# Compile Entity "PC"
+# Compile Architecture "PC" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work procesador -2002  $DSN/src/PC.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\PC.vhd
+# Compile Entity "PC"
+# Compile Architecture "PC" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -work procesador -2002  $DSN/src/UC_ALU.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\UC_ALU.vhd
+# Compile Entity "UC_ALU"
+# Compile Architecture "UC_ALU" of Entity "UC_ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -work procesador -2002  $DSN/src/MUX5.vhd
+# Compile...
+# File: c:\My_Designs\Procesador1.0\procesador\src\MUX5.vhd
+# Compile Entity "MUX5"
+# Compile Architecture "MUX5" of Entity "MUX5"
+# Error: COMP96_0078: MUX5.vhd : (18, 20): Unknown identifier "s1".
+# Error: COMP96_0348: MUX5.vhd : (18, 20): Name on sensitivity list must denote a signal.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Breakpoint on signal "clk" cleared.

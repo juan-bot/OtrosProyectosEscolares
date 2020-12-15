@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - bloquees.bde</TITLE>
+<STYLE>
+.Err	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.Warn	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.Info	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Sccss  {color:'#009600';cursor:hand;text-decoration:underline;}
+.ErrH	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.WarnH	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.InfoH	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Err1	{color:'#FF0000';}
+.Warn1	{color:'#0000FF';}
+.Info1	{color:'#000000';}
+.Sccss1 {color:'#009600';}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" BACKGROUND="C:\Program Files (x86)\Aldec\Active-HDL 8.1\\Flows\Res\default.bmp">
+<FONT FACE="Serif">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - bloquees.bde</H2>
+
+Created on Thu 2020-09-10 at 14:27:53
+<HR NOSHADE COLOR="#008080">
+<SPAN class=Info1>Checking file 'c:\My_Designs\Procesador1.0\procesador\src\bloquees.bde'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">symbol 'Fub10' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=309');">symbol 'Fub12' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=66');">symbol 'Fub3' is empty.</SPAN><BR>
+<SPAN class=Info1>The following differences between symbols and their contents have been found:</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=101');">symbol 'Fub4': port 'addr' differs in range.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=101');">symbol 'Fub4': port 'data' is missing in the library.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=101');">symbol 'Fub4': port 'instruccion' is missing on the diagram.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=127');">symbol 'Fub5' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=153');">symbol 'Fub6' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=162');">symbol 'Fub7' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=205');">symbol 'Fub8' is empty.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=231');">symbol 'Fub9' is empty.</SPAN><BR>
+<SPAN class=Info1>To settle inconsistencies between symbols and their contents apply the Compare Symbol with Contents command to each of the reported symbols.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected input port 'wr'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected input port 'r1(4:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected input port 'r2(4:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected input port 'rw(5:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected input port 'data_w(32:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=66');">Unconnected input port 's1(7:0)'. Instance 'SUMADOR'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=66');">Unconnected input port 's2(7:0)'. Instance 'SUMADOR'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=101');">Unconnected input port 'Addr(7:0)'. Instance 'MemoriaDeCodigo'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=127');">Unconnected input port 'd0(7:0)'. Instance 'mux'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=127');">Unconnected input port 'd1(7:0)'. Instance 'mux'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=127');">Unconnected input port 'sel'. Instance 'mux'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=153');">Unconnected input port 'entrada(15:0)'. Instance 'extensionDeSigno'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=162');">Unconnected input port 'dato1(7:0)'. Instance 'mux2'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=162');">Unconnected input port 'dato2(7:0)'. Instance 'mux2'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=205');">Unconnected input port 'dato(31:0)'. Instance 'multiplicador'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=231');">Unconnected input port 'data1(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=231');">Unconnected input port 'data2(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">Unconnected input port 'Addr(7:0)'. Instance 'MemoriaDeDatos'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">Unconnected input port 'dato(31:0)'. Instance 'MemoriaDeDatos'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">Unconnected input port 'WE'. Instance 'MemoriaDeDatos'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">Unconnected input port 'rd'. Instance 'MemoriaDeDatos'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=309');">Unconnected input port 'data1(31:0)'. Instance 'mux3'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=309');">Unconnected input port 'data0(31:0)'. Instance 'mux3'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=309');">Unconnected input port 'sel'. Instance 'mux3'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=344');">Unconnected input port 'clk'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=344');">Unconnected input port 'inPC(31:0)'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected output port 'dat1(31:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=1');">Unconnected output port 'dat2(31:0)'. Instance 'archivodeRegistros'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=66');">Unconnected output port 'r(7:0)'. Instance 'SUMADOR'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=101');">Unconnected output port 'Data(7:0)'. Instance 'MemoriaDeCodigo'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=127');">Unconnected output port 'sal(7:0)'. Instance 'mux'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=153');">Unconnected output port 'salida(31:0)'. Instance 'extensionDeSigno'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=162');">Unconnected output port 'salida(7:0)'. Instance 'mux2'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=205');">Unconnected output port 'salida(31:0)'. Instance 'multiplicador'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=231');">Unconnected output port 'res(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=257');">Unconnected output port 'salida(31:0)'. Instance 'MemoriaDeDatos'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=309');">Unconnected output port 'salida(31:0)'. Instance 'mux3'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','c:\\My_Designs\\Procesador1.0\\procesador\\src\\bloquees.bde','','-errorid=344');">Unconnected output port 'outPC(31:0)'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn1>bloquees.bde - 0 error(s), 49 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 1 second(s).</SPAN><BR>
+</tt>
+</FONT>
+       
+        >
+</BODY>
+</HTML>
