@@ -1,0 +1,965 @@
+
+Memoria - USART.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000004a  00800100  00000596  0000062a  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000596  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000046  0080014a  0080014a  00000674  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000674  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000006a4  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000080  00000000  00000000  000006e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00000c0b  00000000  00000000  00000764  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 000007a3  00000000  00000000  0000136f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   000006d5  00000000  00000000  00001b12  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000158  00000000  00000000  000021e8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000438  00000000  00000000  00002340  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    000005d2  00000000  00000000  00002778  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000060  00000000  00000000  00002d4a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+   8:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+   c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  10:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  14:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  18:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  1c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  20:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  24:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  28:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  2c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  30:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  34:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  38:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  3c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  40:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  44:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  48:	0c 94 36 01 	jmp	0x26c	; 0x26c <__vector_18>
+  4c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  50:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  54:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  58:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  5c:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  60:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+  64:	0c 94 51 00 	jmp	0xa2	; 0xa2 <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+
+00000074 <__do_copy_data>:
+  74:	11 e0       	ldi	r17, 0x01	; 1
+  76:	a0 e0       	ldi	r26, 0x00	; 0
+  78:	b1 e0       	ldi	r27, 0x01	; 1
+  7a:	e6 e9       	ldi	r30, 0x96	; 150
+  7c:	f5 e0       	ldi	r31, 0x05	; 5
+  7e:	02 c0       	rjmp	.+4      	; 0x84 <__do_copy_data+0x10>
+  80:	05 90       	lpm	r0, Z+
+  82:	0d 92       	st	X+, r0
+  84:	aa 34       	cpi	r26, 0x4A	; 74
+  86:	b1 07       	cpc	r27, r17
+  88:	d9 f7       	brne	.-10     	; 0x80 <__do_copy_data+0xc>
+
+0000008a <__do_clear_bss>:
+  8a:	21 e0       	ldi	r18, 0x01	; 1
+  8c:	aa e4       	ldi	r26, 0x4A	; 74
+  8e:	b1 e0       	ldi	r27, 0x01	; 1
+  90:	01 c0       	rjmp	.+2      	; 0x94 <.do_clear_bss_start>
+
+00000092 <.do_clear_bss_loop>:
+  92:	1d 92       	st	X+, r1
+
+00000094 <.do_clear_bss_start>:
+  94:	a0 39       	cpi	r26, 0x90	; 144
+  96:	b2 07       	cpc	r27, r18
+  98:	e1 f7       	brne	.-8      	; 0x92 <.do_clear_bss_loop>
+  9a:	0e 94 53 00 	call	0xa6	; 0xa6 <main>
+  9e:	0c 94 c9 02 	jmp	0x592	; 0x592 <_exit>
+
+000000a2 <__bad_interrupt>:
+  a2:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+000000a6 <main>:
+			PORTB=0x00;
+			envia_cadena ("Estado inesperado" ); 
+	}
+}
+int main() {
+	DDRD = 0x02 ; // RXD es entrada y TXD es salida 
+  a6:	c2 e0       	ldi	r28, 0x02	; 2
+  a8:	ca b9       	out	0x0a, r28	; 10
+	DDRB = 0x08 ;
+  aa:	88 e0       	ldi	r24, 0x08	; 8
+  ac:	84 b9       	out	0x04, r24	; 4
+	TWI_Config ();
+  ae:	0e 94 65 02 	call	0x4ca	; 0x4ca <TWI_Config>
+		// Configuraci´on de la USART 
+	UBRR0 = 0X0C; // 9600 bps 
+  b2:	8c e0       	ldi	r24, 0x0C	; 12
+  b4:	90 e0       	ldi	r25, 0x00	; 0
+  b6:	90 93 c5 00 	sts	0x00C5, r25	; 0x8000c5 <__DATA_REGION_ORIGIN__+0x65>
+  ba:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__DATA_REGION_ORIGIN__+0x64>
+	UCSR0A = 0X02; // As´? ncrono a doble velocidad 
+  be:	c0 93 c0 00 	sts	0x00C0, r28	; 0x8000c0 <__DATA_REGION_ORIGIN__+0x60>
+	UCSR0B = 0X98; // Interrupci´on por recepci´on 
+  c2:	88 e9       	ldi	r24, 0x98	; 152
+  c4:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__DATA_REGION_ORIGIN__+0x61>
+	UCSR0C = 0X06; // Datos de 8 bits
+  c8:	86 e0       	ldi	r24, 0x06	; 6
+  ca:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__DATA_REGION_ORIGIN__+0x62>
+	sei ();
+  ce:	78 94       	sei
+	while (1) 
+		asm("NOP" );
+  d0:	00 00       	nop
+  d2:	fe cf       	rjmp	.-4      	; 0xd0 <main+0x2a>
+
+000000d4 <envia_cadena>:
+}
+void envia_cadena (char cad [] ) { 
+  d4:	cf 93       	push	r28
+  d6:	df 93       	push	r29
+  d8:	ec 01       	movw	r28, r24
+	uint8_t j = 0;
+	while(cad [j] != '\0' ) { 
+  da:	28 81       	ld	r18, Y
+  dc:	22 23       	and	r18, r18
+  de:	89 f0       	breq	.+34     	; 0x102 <envia_cadena+0x2e>
+  e0:	30 e0       	ldi	r19, 0x00	; 0
+		while (!(UCSR0A & 1 << UDRE0)); // Asegura buffer vac?o 
+  e2:	e0 ec       	ldi	r30, 0xC0	; 192
+  e4:	f0 e0       	ldi	r31, 0x00	; 0
+		UDR0 = cad [j] ; j++; 
+  e6:	46 ec       	ldi	r20, 0xC6	; 198
+  e8:	50 e0       	ldi	r21, 0x00	; 0
+		asm("NOP" );
+}
+void envia_cadena (char cad [] ) { 
+	uint8_t j = 0;
+	while(cad [j] != '\0' ) { 
+		while (!(UCSR0A & 1 << UDRE0)); // Asegura buffer vac?o 
+  ea:	90 81       	ld	r25, Z
+  ec:	95 ff       	sbrs	r25, 5
+  ee:	fd cf       	rjmp	.-6      	; 0xea <envia_cadena+0x16>
+		UDR0 = cad [j] ; j++; 
+  f0:	da 01       	movw	r26, r20
+  f2:	2c 93       	st	X, r18
+  f4:	3f 5f       	subi	r19, 0xFF	; 255
+	while (1) 
+		asm("NOP" );
+}
+void envia_cadena (char cad [] ) { 
+	uint8_t j = 0;
+	while(cad [j] != '\0' ) { 
+  f6:	de 01       	movw	r26, r28
+  f8:	a3 0f       	add	r26, r19
+  fa:	b1 1d       	adc	r27, r1
+  fc:	2c 91       	ld	r18, X
+  fe:	21 11       	cpse	r18, r1
+ 100:	f4 cf       	rjmp	.-24     	; 0xea <envia_cadena+0x16>
+		while (!(UCSR0A & 1 << UDRE0)); // Asegura buffer vac?o 
+		UDR0 = cad [j] ; j++; 
+	} 
+	while (!(UCSR0A & 1 << UDRE0)); // Asegura buffer vac?o 
+ 102:	e0 ec       	ldi	r30, 0xC0	; 192
+ 104:	f0 e0       	ldi	r31, 0x00	; 0
+ 106:	80 81       	ld	r24, Z
+ 108:	85 ff       	sbrs	r24, 5
+ 10a:	fd cf       	rjmp	.-6      	; 0x106 <envia_cadena+0x32>
+		UDR0 = 0x0D;
+ 10c:	8d e0       	ldi	r24, 0x0D	; 13
+ 10e:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__DATA_REGION_ORIGIN__+0x66>
+}
+ 112:	df 91       	pop	r29
+ 114:	cf 91       	pop	r28
+ 116:	08 95       	ret
+
+00000118 <lee_RAM>:
+uint8_t lee_RAM( uint8_t datos [] , uint8_t n, uint8_t dir ) { 
+ 118:	ff 92       	push	r15
+ 11a:	0f 93       	push	r16
+ 11c:	1f 93       	push	r17
+ 11e:	cf 93       	push	r28
+ 120:	df 93       	push	r29
+ 122:	8c 01       	movw	r16, r24
+ 124:	c6 2f       	mov	r28, r22
+ 126:	d4 2f       	mov	r29, r20
+	uint8_t i , edo ;
+	edo = TWI_Inicio (); // Condici´on de inicio 
+ 128:	0e 94 6e 02 	call	0x4dc	; 0x4dc <TWI_Inicio>
+	if (edo != 0x01) { // Si no se consigue 
+ 12c:	81 30       	cpi	r24, 0x01	; 1
+ 12e:	39 f0       	breq	.+14     	; 0x13e <lee_RAM+0x26>
+		TWCR |= (1<<TWINT); // Limpia la bandera 
+ 130:	ec eb       	ldi	r30, 0xBC	; 188
+ 132:	f0 e0       	ldi	r31, 0x00	; 0
+ 134:	80 81       	ld	r24, Z
+ 136:	80 68       	ori	r24, 0x80	; 128
+ 138:	80 83       	st	Z, r24
+		return 0x00 ; 
+ 13a:	80 e0       	ldi	r24, 0x00	; 0
+ 13c:	47 c0       	rjmp	.+142    	; 0x1cc <lee_RAM+0xb4>
+	} 
+	edo = TWI_EscByte(DIR_ESVO << 1); // Transmite la SLA+W 
+ 13e:	80 ea       	ldi	r24, 0xA0	; 160
+ 140:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+	if (edo != 0x01) { // Ocurre algo inesperado 
+ 144:	81 30       	cpi	r24, 0x01	; 1
+ 146:	21 f0       	breq	.+8      	; 0x150 <lee_RAM+0x38>
+		TWI_Paro (); // Libera al bus 
+ 148:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+		return 0x00 ; 
+ 14c:	80 e0       	ldi	r24, 0x00	; 0
+ 14e:	3e c0       	rjmp	.+124    	; 0x1cc <lee_RAM+0xb4>
+	} 
+	edo = TWI_EscByte( dir ); // Transmite la direcci ´on 
+ 150:	8d 2f       	mov	r24, r29
+ 152:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+	if (edo != 0x01) { // Ocurre algo inesperado 
+ 156:	81 30       	cpi	r24, 0x01	; 1
+ 158:	21 f0       	breq	.+8      	; 0x162 <lee_RAM+0x4a>
+		TWI_Paro (); // Termina las transferencias 
+ 15a:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+		return 0x00 ; 
+ 15e:	80 e0       	ldi	r24, 0x00	; 0
+ 160:	35 c0       	rjmp	.+106    	; 0x1cc <lee_RAM+0xb4>
+	} 
+	edo = TWI_Inicio (); // Inicio repetido 
+ 162:	0e 94 6e 02 	call	0x4dc	; 0x4dc <TWI_Inicio>
+	if (edo != 0x01) { // Si no se consigue 
+ 166:	81 30       	cpi	r24, 0x01	; 1
+ 168:	39 f0       	breq	.+14     	; 0x178 <lee_RAM+0x60>
+		TWCR |= (1<<TWINT); // Limpia la bandera 
+ 16a:	ec eb       	ldi	r30, 0xBC	; 188
+ 16c:	f0 e0       	ldi	r31, 0x00	; 0
+ 16e:	80 81       	ld	r24, Z
+ 170:	80 68       	ori	r24, 0x80	; 128
+ 172:	80 83       	st	Z, r24
+		return 0x00 ; 
+ 174:	80 e0       	ldi	r24, 0x00	; 0
+ 176:	2a c0       	rjmp	.+84     	; 0x1cc <lee_RAM+0xb4>
+	} 
+	edo = TWI_EscByte((DIR_ESVO << 1)+1); // Transmite la SLA+R 
+ 178:	81 ea       	ldi	r24, 0xA1	; 161
+ 17a:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+	if (edo != 0x01) { // Ocurre algo inesperado 
+ 17e:	81 30       	cpi	r24, 0x01	; 1
+ 180:	11 f0       	breq	.+4      	; 0x186 <lee_RAM+0x6e>
+		TWI_Paro (); // Libera al bus return 
+ 182:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+		0x00 ; 
+	} 
+	for ( i = 0; i < n - 1; i++ ) { // Recibe n ? 1 datos 
+ 186:	d0 e0       	ldi	r29, 0x00	; 0
+ 188:	21 97       	sbiw	r28, 0x01	; 1
+ 18a:	1c 16       	cp	r1, r28
+ 18c:	1d 06       	cpc	r1, r29
+ 18e:	a4 f4       	brge	.+40     	; 0x1b8 <lee_RAM+0xa0>
+ 190:	f1 2c       	mov	r15, r1
+		edo = TWI_LeeByte(&datos [ i ] , 1); // Lee con reconocimiento 
+ 192:	61 e0       	ldi	r22, 0x01	; 1
+ 194:	c8 01       	movw	r24, r16
+ 196:	8f 0d       	add	r24, r15
+ 198:	91 1d       	adc	r25, r1
+ 19a:	0e 94 9c 02 	call	0x538	; 0x538 <TWI_LeeByte>
+		if (edo != 0x01) { // Ocurre algo inesperado 
+ 19e:	81 30       	cpi	r24, 0x01	; 1
+ 1a0:	21 f0       	breq	.+8      	; 0x1aa <lee_RAM+0x92>
+			TWI_Paro (); // Termina las transferencias 
+ 1a2:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+			return 0x00 ; 
+ 1a6:	80 e0       	ldi	r24, 0x00	; 0
+ 1a8:	11 c0       	rjmp	.+34     	; 0x1cc <lee_RAM+0xb4>
+	edo = TWI_EscByte((DIR_ESVO << 1)+1); // Transmite la SLA+R 
+	if (edo != 0x01) { // Ocurre algo inesperado 
+		TWI_Paro (); // Libera al bus return 
+		0x00 ; 
+	} 
+	for ( i = 0; i < n - 1; i++ ) { // Recibe n ? 1 datos 
+ 1aa:	f3 94       	inc	r15
+ 1ac:	8f 2d       	mov	r24, r15
+ 1ae:	90 e0       	ldi	r25, 0x00	; 0
+ 1b0:	8c 17       	cp	r24, r28
+ 1b2:	9d 07       	cpc	r25, r29
+ 1b4:	74 f3       	brlt	.-36     	; 0x192 <lee_RAM+0x7a>
+ 1b6:	01 c0       	rjmp	.+2      	; 0x1ba <lee_RAM+0xa2>
+ 1b8:	f1 2c       	mov	r15, r1
+		if (edo != 0x01) { // Ocurre algo inesperado 
+			TWI_Paro (); // Termina las transferencias 
+			return 0x00 ; 
+		} 
+	} 
+	TWI_LeeByte(&datos [ i ] , 0); // Lee sin reconocimiento 
+ 1ba:	60 e0       	ldi	r22, 0x00	; 0
+ 1bc:	c8 01       	movw	r24, r16
+ 1be:	8f 0d       	add	r24, r15
+ 1c0:	91 1d       	adc	r25, r1
+ 1c2:	0e 94 9c 02 	call	0x538	; 0x538 <TWI_LeeByte>
+	TWI_Paro ();
+ 1c6:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+	return 0x01 ; // Regresa con ´e xito
+ 1ca:	81 e0       	ldi	r24, 0x01	; 1
+}
+ 1cc:	df 91       	pop	r29
+ 1ce:	cf 91       	pop	r28
+ 1d0:	1f 91       	pop	r17
+ 1d2:	0f 91       	pop	r16
+ 1d4:	ff 90       	pop	r15
+ 1d6:	08 95       	ret
+
+000001d8 <escribe_RAM>:
+uint8_t escribe_RAM( uint8_t datos [] , uint8_t n, uint8_t dir ) { 
+ 1d8:	ef 92       	push	r14
+ 1da:	ff 92       	push	r15
+ 1dc:	0f 93       	push	r16
+ 1de:	1f 93       	push	r17
+ 1e0:	cf 93       	push	r28
+ 1e2:	df 93       	push	r29
+ 1e4:	7c 01       	movw	r14, r24
+ 1e6:	d6 2f       	mov	r29, r22
+ 1e8:	c4 2f       	mov	r28, r20
+	uint8_t i , edo ;
+	edo = TWI_Inicio (); // Condici´on de inicio 
+ 1ea:	0e 94 6e 02 	call	0x4dc	; 0x4dc <TWI_Inicio>
+	if (edo != 0x01) { // Si no se consigue 
+ 1ee:	81 30       	cpi	r24, 0x01	; 1
+ 1f0:	39 f0       	breq	.+14     	; 0x200 <escribe_RAM+0x28>
+		TWCR |= (1<<TWINT); // Limpia la bandera 
+ 1f2:	ec eb       	ldi	r30, 0xBC	; 188
+ 1f4:	f0 e0       	ldi	r31, 0x00	; 0
+ 1f6:	80 81       	ld	r24, Z
+ 1f8:	80 68       	ori	r24, 0x80	; 128
+ 1fa:	80 83       	st	Z, r24
+		return 0x00 ; 
+ 1fc:	80 e0       	ldi	r24, 0x00	; 0
+ 1fe:	2f c0       	rjmp	.+94     	; 0x25e <escribe_RAM+0x86>
+	} 
+	edo = TWI_EscByte(DIR_ESVO << 1); // Transmite la SLA+W 
+ 200:	80 ea       	ldi	r24, 0xA0	; 160
+ 202:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+	if (edo != 0x01) { // Ocurre algo inesperado 
+ 206:	81 30       	cpi	r24, 0x01	; 1
+ 208:	21 f0       	breq	.+8      	; 0x212 <escribe_RAM+0x3a>
+		TWI_Paro (); // Libera al bus 
+ 20a:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+		return 0x00 ; 
+ 20e:	80 e0       	ldi	r24, 0x00	; 0
+ 210:	26 c0       	rjmp	.+76     	; 0x25e <escribe_RAM+0x86>
+	} 
+	edo = TWI_EscByte( dir ); // Transmite la direcci ´on 
+ 212:	8c 2f       	mov	r24, r28
+ 214:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+	if (edo != 0x01) { // Ocurre algo inesperado 
+ 218:	81 30       	cpi	r24, 0x01	; 1
+ 21a:	19 f4       	brne	.+6      	; 0x222 <escribe_RAM+0x4a>
+		TWI_Paro (); // Termina las transferencias 
+		return 0x00 ; 
+	} 
+	for ( i = 0; i < n; i++ ) { // Transmite los datos 
+ 21c:	d1 11       	cpse	r29, r1
+ 21e:	05 c0       	rjmp	.+10     	; 0x22a <escribe_RAM+0x52>
+ 220:	1b c0       	rjmp	.+54     	; 0x258 <escribe_RAM+0x80>
+		TWI_Paro (); // Libera al bus 
+		return 0x00 ; 
+	} 
+	edo = TWI_EscByte( dir ); // Transmite la direcci ´on 
+	if (edo != 0x01) { // Ocurre algo inesperado 
+		TWI_Paro (); // Termina las transferencias 
+ 222:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+		return 0x00 ; 
+ 226:	80 e0       	ldi	r24, 0x00	; 0
+ 228:	1a c0       	rjmp	.+52     	; 0x25e <escribe_RAM+0x86>
+ 22a:	87 01       	movw	r16, r14
+ 22c:	d1 50       	subi	r29, 0x01	; 1
+ 22e:	6d 2f       	mov	r22, r29
+ 230:	70 e0       	ldi	r23, 0x00	; 0
+ 232:	6f 5f       	subi	r22, 0xFF	; 255
+ 234:	7f 4f       	sbci	r23, 0xFF	; 255
+ 236:	e7 01       	movw	r28, r14
+ 238:	c6 0f       	add	r28, r22
+ 23a:	d7 1f       	adc	r29, r23
+	} 
+	for ( i = 0; i < n; i++ ) { // Transmite los datos 
+		edo = TWI_EscByte( datos [ i ] ) ; 
+ 23c:	f8 01       	movw	r30, r16
+ 23e:	81 91       	ld	r24, Z+
+ 240:	8f 01       	movw	r16, r30
+ 242:	0e 94 82 02 	call	0x504	; 0x504 <TWI_EscByte>
+		if (edo != 0x01) { // Ocurre algo inesperado 
+ 246:	81 30       	cpi	r24, 0x01	; 1
+ 248:	21 f0       	breq	.+8      	; 0x252 <escribe_RAM+0x7a>
+			TWI_Paro (); // Termina las transferencias 
+ 24a:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+			return 0x00 ; 
+ 24e:	80 e0       	ldi	r24, 0x00	; 0
+ 250:	06 c0       	rjmp	.+12     	; 0x25e <escribe_RAM+0x86>
+	edo = TWI_EscByte( dir ); // Transmite la direcci ´on 
+	if (edo != 0x01) { // Ocurre algo inesperado 
+		TWI_Paro (); // Termina las transferencias 
+		return 0x00 ; 
+	} 
+	for ( i = 0; i < n; i++ ) { // Transmite los datos 
+ 252:	0c 17       	cp	r16, r28
+ 254:	1d 07       	cpc	r17, r29
+ 256:	91 f7       	brne	.-28     	; 0x23c <escribe_RAM+0x64>
+		if (edo != 0x01) { // Ocurre algo inesperado 
+			TWI_Paro (); // Termina las transferencias 
+			return 0x00 ; 
+		} 
+	} 
+	TWI_Paro ();
+ 258:	0e 94 c0 02 	call	0x580	; 0x580 <TWI_Paro>
+	return 0x01 ; // Regresa con ´e xito
+ 25c:	81 e0       	ldi	r24, 0x01	; 1
+ 25e:	df 91       	pop	r29
+ 260:	cf 91       	pop	r28
+ 262:	1f 91       	pop	r17
+ 264:	0f 91       	pop	r16
+ 266:	ff 90       	pop	r15
+ 268:	ef 90       	pop	r14
+ 26a:	08 95       	ret
+
+0000026c <__vector_18>:
+// 2 ? Recibe el total de datos , lee la RAM y env´?a datos 
+// 3 ? Recibe direcci ´on de escritura 
+// 4 ? Recibe cadena terminada con ’$ ’ y escribe en la RAM
+uint16_t dir = 0 , total = 0; 
+uint8_t datos [64] , i = 0;
+ISR(USART_RX_vect) { 
+ 26c:	1f 92       	push	r1
+ 26e:	0f 92       	push	r0
+ 270:	0f b6       	in	r0, 0x3f	; 63
+ 272:	0f 92       	push	r0
+ 274:	11 24       	eor	r1, r1
+ 276:	2f 93       	push	r18
+ 278:	3f 93       	push	r19
+ 27a:	4f 93       	push	r20
+ 27c:	5f 93       	push	r21
+ 27e:	6f 93       	push	r22
+ 280:	7f 93       	push	r23
+ 282:	8f 93       	push	r24
+ 284:	9f 93       	push	r25
+ 286:	af 93       	push	r26
+ 288:	bf 93       	push	r27
+ 28a:	ef 93       	push	r30
+ 28c:	ff 93       	push	r31
+	uint8_t dato ;
+	dato = UDR0;
+ 28e:	90 91 c6 00 	lds	r25, 0x00C6	; 0x8000c6 <__DATA_REGION_ORIGIN__+0x66>
+	switch( estado ) { 
+ 292:	80 91 4f 01 	lds	r24, 0x014F	; 0x80014f <estado>
+ 296:	82 30       	cpi	r24, 0x02	; 2
+ 298:	09 f4       	brne	.+2      	; 0x29c <__vector_18+0x30>
+ 29a:	57 c0       	rjmp	.+174    	; 0x34a <__vector_18+0xde>
+ 29c:	28 f4       	brcc	.+10     	; 0x2a8 <__vector_18+0x3c>
+ 29e:	88 23       	and	r24, r24
+ 2a0:	51 f0       	breq	.+20     	; 0x2b6 <__vector_18+0x4a>
+ 2a2:	81 30       	cpi	r24, 0x01	; 1
+ 2a4:	e9 f0       	breq	.+58     	; 0x2e0 <__vector_18+0x74>
+ 2a6:	f9 c0       	rjmp	.+498    	; 0x49a <__LOCK_REGION_LENGTH__+0x9a>
+ 2a8:	83 30       	cpi	r24, 0x03	; 3
+ 2aa:	09 f4       	brne	.+2      	; 0x2ae <__vector_18+0x42>
+ 2ac:	a1 c0       	rjmp	.+322    	; 0x3f0 <__vector_18+0x184>
+ 2ae:	84 30       	cpi	r24, 0x04	; 4
+ 2b0:	09 f4       	brne	.+2      	; 0x2b4 <__vector_18+0x48>
+ 2b2:	cf c0       	rjmp	.+414    	; 0x452 <__LOCK_REGION_LENGTH__+0x52>
+ 2b4:	f2 c0       	rjmp	.+484    	; 0x49a <__LOCK_REGION_LENGTH__+0x9a>
+		case 0: 
+			i = 0; 
+ 2b6:	10 92 4a 01 	sts	0x014A, r1	; 0x80014a <__data_end>
+			if (dato == 'R' || dato == 'r' ) 
+ 2ba:	9f 7d       	andi	r25, 0xDF	; 223
+ 2bc:	92 35       	cpi	r25, 0x52	; 82
+ 2be:	21 f4       	brne	.+8      	; 0x2c8 <__vector_18+0x5c>
+				estado = 1; 
+ 2c0:	81 e0       	ldi	r24, 0x01	; 1
+ 2c2:	80 93 4f 01 	sts	0x014F, r24	; 0x80014f <estado>
+ 2c6:	0a c0       	rjmp	.+20     	; 0x2dc <__vector_18+0x70>
+			else if (dato == 'W' || dato == 'w' ) 
+ 2c8:	97 35       	cpi	r25, 0x57	; 87
+ 2ca:	21 f4       	brne	.+8      	; 0x2d4 <__vector_18+0x68>
+				estado = 3; 
+ 2cc:	83 e0       	ldi	r24, 0x03	; 3
+ 2ce:	80 93 4f 01 	sts	0x014F, r24	; 0x80014f <estado>
+ 2d2:	04 c0       	rjmp	.+8      	; 0x2dc <__vector_18+0x70>
+			else 
+				envia_cadena ("Comando no identificado" ); 
+ 2d4:	80 e0       	ldi	r24, 0x00	; 0
+ 2d6:	91 e0       	ldi	r25, 0x01	; 1
+ 2d8:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+			PORTB=0X00;
+ 2dc:	15 b8       	out	0x05, r1	; 5
+		break ;
+ 2de:	e4 c0       	rjmp	.+456    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+	 
+		case 1: 
+			PORTB=0X01;
+ 2e0:	81 e0       	ldi	r24, 0x01	; 1
+ 2e2:	85 b9       	out	0x05, r24	; 5
+			if (dato >= 0x30 && dato <= 0x39) // Car´acter numerico 
+ 2e4:	80 ed       	ldi	r24, 0xD0	; 208
+ 2e6:	89 0f       	add	r24, r25
+ 2e8:	8a 30       	cpi	r24, 0x0A	; 10
+ 2ea:	c0 f4       	brcc	.+48     	; 0x31c <__vector_18+0xb0>
+				dir = ( dir *10) + (dato - 0x30 ); 
+ 2ec:	20 91 4d 01 	lds	r18, 0x014D	; 0x80014d <dir>
+ 2f0:	30 91 4e 01 	lds	r19, 0x014E	; 0x80014e <dir+0x1>
+ 2f4:	a9 01       	movw	r20, r18
+ 2f6:	44 0f       	add	r20, r20
+ 2f8:	55 1f       	adc	r21, r21
+ 2fa:	22 0f       	add	r18, r18
+ 2fc:	33 1f       	adc	r19, r19
+ 2fe:	22 0f       	add	r18, r18
+ 300:	33 1f       	adc	r19, r19
+ 302:	22 0f       	add	r18, r18
+ 304:	33 1f       	adc	r19, r19
+ 306:	24 0f       	add	r18, r20
+ 308:	35 1f       	adc	r19, r21
+ 30a:	29 0f       	add	r18, r25
+ 30c:	31 1d       	adc	r19, r1
+ 30e:	20 53       	subi	r18, 0x30	; 48
+ 310:	31 09       	sbc	r19, r1
+ 312:	30 93 4e 01 	sts	0x014E, r19	; 0x80014e <dir+0x1>
+ 316:	20 93 4d 01 	sts	0x014D, r18	; 0x80014d <dir>
+ 31a:	c6 c0       	rjmp	.+396    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			else { 
+				if ( dir > 255) { 
+ 31c:	80 91 4d 01 	lds	r24, 0x014D	; 0x80014d <dir>
+ 320:	90 91 4e 01 	lds	r25, 0x014E	; 0x80014e <dir+0x1>
+ 324:	8f 3f       	cpi	r24, 0xFF	; 255
+ 326:	91 05       	cpc	r25, r1
+ 328:	61 f0       	breq	.+24     	; 0x342 <__vector_18+0xd6>
+ 32a:	58 f0       	brcs	.+22     	; 0x342 <__vector_18+0xd6>
+					envia_cadena ("Fuera de rango"); 
+ 32c:	88 e1       	ldi	r24, 0x18	; 24
+ 32e:	91 e0       	ldi	r25, 0x01	; 1
+ 330:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+					estado = 0; 
+ 334:	10 92 4f 01 	sts	0x014F, r1	; 0x80014f <estado>
+					dir = 0; 
+ 338:	10 92 4e 01 	sts	0x014E, r1	; 0x80014e <dir+0x1>
+ 33c:	10 92 4d 01 	sts	0x014D, r1	; 0x80014d <dir>
+ 340:	b3 c0       	rjmp	.+358    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+				} 
+				else 
+					estado = 2; // Direccion lista 
+ 342:	82 e0       	ldi	r24, 0x02	; 2
+ 344:	80 93 4f 01 	sts	0x014F, r24	; 0x80014f <estado>
+ 348:	af c0       	rjmp	.+350    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			}
+		break ; 
+		case 2: 
+			PORTB=0X02;
+ 34a:	82 e0       	ldi	r24, 0x02	; 2
+ 34c:	85 b9       	out	0x05, r24	; 5
+			if (dato >= 0x30 && dato <= 0x39) 
+ 34e:	80 ed       	ldi	r24, 0xD0	; 208
+ 350:	89 0f       	add	r24, r25
+ 352:	8a 30       	cpi	r24, 0x0A	; 10
+ 354:	c0 f4       	brcc	.+48     	; 0x386 <__vector_18+0x11a>
+				total = ( total *10) + (dato -0x30 ); // Caracter numerico 
+ 356:	20 91 4b 01 	lds	r18, 0x014B	; 0x80014b <total>
+ 35a:	30 91 4c 01 	lds	r19, 0x014C	; 0x80014c <total+0x1>
+ 35e:	a9 01       	movw	r20, r18
+ 360:	44 0f       	add	r20, r20
+ 362:	55 1f       	adc	r21, r21
+ 364:	22 0f       	add	r18, r18
+ 366:	33 1f       	adc	r19, r19
+ 368:	22 0f       	add	r18, r18
+ 36a:	33 1f       	adc	r19, r19
+ 36c:	22 0f       	add	r18, r18
+ 36e:	33 1f       	adc	r19, r19
+ 370:	24 0f       	add	r18, r20
+ 372:	35 1f       	adc	r19, r21
+ 374:	29 0f       	add	r18, r25
+ 376:	31 1d       	adc	r19, r1
+ 378:	20 53       	subi	r18, 0x30	; 48
+ 37a:	31 09       	sbc	r19, r1
+ 37c:	30 93 4c 01 	sts	0x014C, r19	; 0x80014c <total+0x1>
+ 380:	20 93 4b 01 	sts	0x014B, r18	; 0x80014b <total>
+ 384:	91 c0       	rjmp	.+290    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			else { 
+				if ( dir + total > 255) 
+ 386:	40 91 4d 01 	lds	r20, 0x014D	; 0x80014d <dir>
+ 38a:	50 91 4e 01 	lds	r21, 0x014E	; 0x80014e <dir+0x1>
+ 38e:	60 91 4b 01 	lds	r22, 0x014B	; 0x80014b <total>
+ 392:	70 91 4c 01 	lds	r23, 0x014C	; 0x80014c <total+0x1>
+ 396:	ca 01       	movw	r24, r20
+ 398:	86 0f       	add	r24, r22
+ 39a:	97 1f       	adc	r25, r23
+ 39c:	8f 3f       	cpi	r24, 0xFF	; 255
+ 39e:	91 05       	cpc	r25, r1
+ 3a0:	31 f0       	breq	.+12     	; 0x3ae <__vector_18+0x142>
+ 3a2:	28 f0       	brcs	.+10     	; 0x3ae <__vector_18+0x142>
+					envia_cadena ("Fuera de rango" ); 
+ 3a4:	88 e1       	ldi	r24, 0x18	; 24
+ 3a6:	91 e0       	ldi	r25, 0x01	; 1
+ 3a8:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+ 3ac:	16 c0       	rjmp	.+44     	; 0x3da <__vector_18+0x16e>
+				else { 
+					if (! lee_RAM( datos , total , dir )) // Lectura por TWI 
+ 3ae:	80 e5       	ldi	r24, 0x50	; 80
+ 3b0:	91 e0       	ldi	r25, 0x01	; 1
+ 3b2:	0e 94 8c 00 	call	0x118	; 0x118 <lee_RAM>
+ 3b6:	81 11       	cpse	r24, r1
+ 3b8:	05 c0       	rjmp	.+10     	; 0x3c4 <__vector_18+0x158>
+						envia_cadena ("Error 1" ); 
+ 3ba:	87 e2       	ldi	r24, 0x27	; 39
+ 3bc:	91 e0       	ldi	r25, 0x01	; 1
+ 3be:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+ 3c2:	0b c0       	rjmp	.+22     	; 0x3da <__vector_18+0x16e>
+					else { 
+						datos [total] = 0; // Fin de cadena 
+ 3c4:	e0 91 4b 01 	lds	r30, 0x014B	; 0x80014b <total>
+ 3c8:	f0 91 4c 01 	lds	r31, 0x014C	; 0x80014c <total+0x1>
+ 3cc:	e0 5b       	subi	r30, 0xB0	; 176
+ 3ce:	fe 4f       	sbci	r31, 0xFE	; 254
+ 3d0:	10 82       	st	Z, r1
+						envia_cadena(datos); 
+ 3d2:	80 e5       	ldi	r24, 0x50	; 80
+ 3d4:	91 e0       	ldi	r25, 0x01	; 1
+ 3d6:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+					} 
+					estado = 2; 
+			
+				} 
+				dir = total = 0;
+ 3da:	10 92 4c 01 	sts	0x014C, r1	; 0x80014c <total+0x1>
+ 3de:	10 92 4b 01 	sts	0x014B, r1	; 0x80014b <total>
+ 3e2:	10 92 4e 01 	sts	0x014E, r1	; 0x80014e <dir+0x1>
+ 3e6:	10 92 4d 01 	sts	0x014D, r1	; 0x80014d <dir>
+				estado = 0; 
+ 3ea:	10 92 4f 01 	sts	0x014F, r1	; 0x80014f <estado>
+ 3ee:	5c c0       	rjmp	.+184    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			} 
+		break ; 
+		case 3: 
+			PORTB=0X03;
+ 3f0:	83 e0       	ldi	r24, 0x03	; 3
+ 3f2:	85 b9       	out	0x05, r24	; 5
+			if (dato >= 0x30 && dato <= 0x39) 
+ 3f4:	80 ed       	ldi	r24, 0xD0	; 208
+ 3f6:	89 0f       	add	r24, r25
+ 3f8:	8a 30       	cpi	r24, 0x0A	; 10
+ 3fa:	c0 f4       	brcc	.+48     	; 0x42c <__LOCK_REGION_LENGTH__+0x2c>
+				dir = ( dir * 10) + (dato - 0x30 ); // Caracter numerico 
+ 3fc:	20 91 4d 01 	lds	r18, 0x014D	; 0x80014d <dir>
+ 400:	30 91 4e 01 	lds	r19, 0x014E	; 0x80014e <dir+0x1>
+ 404:	a9 01       	movw	r20, r18
+ 406:	44 0f       	add	r20, r20
+ 408:	55 1f       	adc	r21, r21
+ 40a:	22 0f       	add	r18, r18
+ 40c:	33 1f       	adc	r19, r19
+ 40e:	22 0f       	add	r18, r18
+ 410:	33 1f       	adc	r19, r19
+ 412:	22 0f       	add	r18, r18
+ 414:	33 1f       	adc	r19, r19
+ 416:	24 0f       	add	r18, r20
+ 418:	35 1f       	adc	r19, r21
+ 41a:	29 0f       	add	r18, r25
+ 41c:	31 1d       	adc	r19, r1
+ 41e:	20 53       	subi	r18, 0x30	; 48
+ 420:	31 09       	sbc	r19, r1
+ 422:	30 93 4e 01 	sts	0x014E, r19	; 0x80014e <dir+0x1>
+ 426:	20 93 4d 01 	sts	0x014D, r18	; 0x80014d <dir>
+ 42a:	3e c0       	rjmp	.+124    	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			else { 
+				if ( dir > 255) { 
+ 42c:	80 91 4d 01 	lds	r24, 0x014D	; 0x80014d <dir>
+ 430:	90 91 4e 01 	lds	r25, 0x014E	; 0x80014e <dir+0x1>
+ 434:	8f 3f       	cpi	r24, 0xFF	; 255
+ 436:	91 05       	cpc	r25, r1
+ 438:	41 f0       	breq	.+16     	; 0x44a <__LOCK_REGION_LENGTH__+0x4a>
+ 43a:	38 f0       	brcs	.+14     	; 0x44a <__LOCK_REGION_LENGTH__+0x4a>
+					envia_cadena ("Fuera de rango" ); 
+ 43c:	88 e1       	ldi	r24, 0x18	; 24
+ 43e:	91 e0       	ldi	r25, 0x01	; 1
+ 440:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+					estado = 0; 		
+ 444:	10 92 4f 01 	sts	0x014F, r1	; 0x80014f <estado>
+ 448:	2f c0       	rjmp	.+94     	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+				} 
+				else 
+					estado = 4; // Direcci´on lista 
+ 44a:	84 e0       	ldi	r24, 0x04	; 4
+ 44c:	80 93 4f 01 	sts	0x014F, r24	; 0x80014f <estado>
+ 450:	2b c0       	rjmp	.+86     	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			} 
+		break ; 
+	
+		case 4: 
+			PORTB=0X04;
+ 452:	84 e0       	ldi	r24, 0x04	; 4
+ 454:	85 b9       	out	0x05, r24	; 5
+			if ( dato != '$') { // No es fin de cadena 
+ 456:	94 32       	cpi	r25, 0x24	; 36
+ 458:	59 f0       	breq	.+22     	; 0x470 <__LOCK_REGION_LENGTH__+0x70>
+				datos [ i ] = dato ;
+ 45a:	80 91 4a 01 	lds	r24, 0x014A	; 0x80014a <__data_end>
+ 45e:	e8 2f       	mov	r30, r24
+ 460:	f0 e0       	ldi	r31, 0x00	; 0
+ 462:	e0 5b       	subi	r30, 0xB0	; 176
+ 464:	fe 4f       	sbci	r31, 0xFE	; 254
+ 466:	90 83       	st	Z, r25
+				i++;
+ 468:	8f 5f       	subi	r24, 0xFF	; 255
+ 46a:	80 93 4a 01 	sts	0x014A, r24	; 0x80014a <__data_end>
+ 46e:	1c c0       	rjmp	.+56     	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			} 
+			else { 
+				if (! escribe_RAM( datos , i , dir )) // Escritura por TWI 
+ 470:	40 91 4d 01 	lds	r20, 0x014D	; 0x80014d <dir>
+ 474:	60 91 4a 01 	lds	r22, 0x014A	; 0x80014a <__data_end>
+ 478:	80 e5       	ldi	r24, 0x50	; 80
+ 47a:	91 e0       	ldi	r25, 0x01	; 1
+ 47c:	0e 94 ec 00 	call	0x1d8	; 0x1d8 <escribe_RAM>
+ 480:	81 11       	cpse	r24, r1
+ 482:	04 c0       	rjmp	.+8      	; 0x48c <__LOCK_REGION_LENGTH__+0x8c>
+				envia_cadena ("Error 2"); 
+ 484:	8f e2       	ldi	r24, 0x2F	; 47
+ 486:	91 e0       	ldi	r25, 0x01	; 1
+ 488:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+				estado = 0; 
+ 48c:	10 92 4f 01 	sts	0x014F, r1	; 0x80014f <estado>
+				dir = 0; 
+ 490:	10 92 4e 01 	sts	0x014E, r1	; 0x80014e <dir+0x1>
+ 494:	10 92 4d 01 	sts	0x014D, r1	; 0x80014d <dir>
+ 498:	07 c0       	rjmp	.+14     	; 0x4a8 <__LOCK_REGION_LENGTH__+0xa8>
+			} 
+		break ; 
+	
+		default : 
+			estado = 0; 
+ 49a:	10 92 4f 01 	sts	0x014F, r1	; 0x80014f <estado>
+			PORTB=0x00;
+ 49e:	15 b8       	out	0x05, r1	; 5
+			envia_cadena ("Estado inesperado" ); 
+ 4a0:	87 e3       	ldi	r24, 0x37	; 55
+ 4a2:	91 e0       	ldi	r25, 0x01	; 1
+ 4a4:	0e 94 6a 00 	call	0xd4	; 0xd4 <envia_cadena>
+	}
+}
+ 4a8:	ff 91       	pop	r31
+ 4aa:	ef 91       	pop	r30
+ 4ac:	bf 91       	pop	r27
+ 4ae:	af 91       	pop	r26
+ 4b0:	9f 91       	pop	r25
+ 4b2:	8f 91       	pop	r24
+ 4b4:	7f 91       	pop	r23
+ 4b6:	6f 91       	pop	r22
+ 4b8:	5f 91       	pop	r21
+ 4ba:	4f 91       	pop	r20
+ 4bc:	3f 91       	pop	r19
+ 4be:	2f 91       	pop	r18
+ 4c0:	0f 90       	pop	r0
+ 4c2:	0f be       	out	0x3f, r0	; 63
+ 4c4:	0f 90       	pop	r0
+ 4c6:	1f 90       	pop	r1
+ 4c8:	18 95       	reti
+
+000004ca <TWI_Config>:
+// Configuración de la Interfaz
+//********************************************************************
+
+void TWI_Config() {
+	
+	TWBR = 0x02;		// Frecuencia del MCU entre 20
+ 4ca:	82 e0       	ldi	r24, 0x02	; 2
+ 4cc:	80 93 b8 00 	sts	0x00B8, r24	; 0x8000b8 <__DATA_REGION_ORIGIN__+0x58>
+	TWSR = 0x00;		// Factor de preescala en 1
+ 4d0:	10 92 b9 00 	sts	0x00B9, r1	; 0x8000b9 <__DATA_REGION_ORIGIN__+0x59>
+	TWCR = 1<<TWEN;		// Habilita a la interfaz
+ 4d4:	84 e0       	ldi	r24, 0x04	; 4
+ 4d6:	80 93 bc 00 	sts	0x00BC, r24	; 0x8000bc <__DATA_REGION_ORIGIN__+0x5c>
+ 4da:	08 95       	ret
+
+000004dc <TWI_Inicio>:
+//********************************************************************
+
+uint8_t TWI_Inicio() {
+uint8_t edo;
+	
+	TWCR = (1<<TWINT)|(1<<TWEN)|(1<<TWSTA); // Condición de inicio
+ 4dc:	84 ea       	ldi	r24, 0xA4	; 164
+ 4de:	80 93 bc 00 	sts	0x00BC, r24	; 0x8000bc <__DATA_REGION_ORIGIN__+0x5c>
+	while(!(TWCR & (1<<TWINT)));            // Espera la bandera TWINT
+ 4e2:	ec eb       	ldi	r30, 0xBC	; 188
+ 4e4:	f0 e0       	ldi	r31, 0x00	; 0
+ 4e6:	80 81       	ld	r24, Z
+ 4e8:	88 23       	and	r24, r24
+ 4ea:	ec f7       	brge	.-6      	; 0x4e6 <TWI_Inicio+0xa>
+	edo = TWSR & 0xF8;                      // Obtiene el estado
+ 4ec:	80 91 b9 00 	lds	r24, 0x00B9	; 0x8000b9 <__DATA_REGION_ORIGIN__+0x59>
+ 4f0:	88 7f       	andi	r24, 0xF8	; 248
+											// 2 posibilidades de éxito:
+	if( edo == 0x08 ||                      // 1. Condición de INICIO
+ 4f2:	88 30       	cpi	r24, 0x08	; 8
+ 4f4:	19 f0       	breq	.+6      	; 0x4fc <TWI_Inicio+0x20>
+ 4f6:	80 31       	cpi	r24, 0x10	; 16
+ 4f8:	19 f0       	breq	.+6      	; 0x500 <TWI_Inicio+0x24>
+ 4fa:	08 95       	ret
+	    edo == 0x10 )						// 2. INICIO REPETIDO
+		   return 0x01;
+ 4fc:	81 e0       	ldi	r24, 0x01	; 1
+ 4fe:	08 95       	ret
+ 500:	81 e0       	ldi	r24, 0x01	; 1
+	
+	return edo;						        // Situación no esperada
+}
+ 502:	08 95       	ret
+
+00000504 <TWI_EscByte>:
+//********************************************************************
+
+uint8_t TWI_EscByte(uint8_t dato) {
+uint8_t  edo;
+	
+	TWDR = dato;						// Carga el dato
+ 504:	80 93 bb 00 	sts	0x00BB, r24	; 0x8000bb <__DATA_REGION_ORIGIN__+0x5b>
+	TWCR = (1<<TWEN)|(1<<TWINT);		// Inicia el envío
+ 508:	84 e8       	ldi	r24, 0x84	; 132
+ 50a:	80 93 bc 00 	sts	0x00BC, r24	; 0x8000bc <__DATA_REGION_ORIGIN__+0x5c>
+	while(!(TWCR & (1<<TWINT)));	    // Espera la bandera TWINT
+ 50e:	ec eb       	ldi	r30, 0xBC	; 188
+ 510:	f0 e0       	ldi	r31, 0x00	; 0
+ 512:	80 81       	ld	r24, Z
+ 514:	88 23       	and	r24, r24
+ 516:	ec f7       	brge	.-6      	; 0x512 <TWI_EscByte+0xe>
+	edo = TWSR & 0xF8;					// Obtiene el estado
+ 518:	80 91 b9 00 	lds	r24, 0x00B9	; 0x8000b9 <__DATA_REGION_ORIGIN__+0x59>
+ 51c:	88 7f       	andi	r24, 0xF8	; 248
+										// 3 posibilidades de éxito:
+	if( edo == 0x18 ||					// Transmitió una SLA + W con ACK
+ 51e:	88 31       	cpi	r24, 0x18	; 24
+ 520:	29 f0       	breq	.+10     	; 0x52c <TWI_EscByte+0x28>
+ 522:	88 32       	cpi	r24, 0x28	; 40
+ 524:	29 f0       	breq	.+10     	; 0x530 <TWI_EscByte+0x2c>
+	    edo == 0x28 ||					// Transmitió una SLA + R con ACK
+ 526:	80 34       	cpi	r24, 0x40	; 64
+ 528:	29 f0       	breq	.+10     	; 0x534 <TWI_EscByte+0x30>
+ 52a:	08 95       	ret
+	    edo == 0x40 )					// Transmitió un dato con ACK
+			return 0x01;
+ 52c:	81 e0       	ldi	r24, 0x01	; 1
+ 52e:	08 95       	ret
+ 530:	81 e0       	ldi	r24, 0x01	; 1
+ 532:	08 95       	ret
+ 534:	81 e0       	ldi	r24, 0x01	; 1
+
+	return edo;							// Situación no esperada
+}
+ 536:	08 95       	ret
+
+00000538 <TWI_LeeByte>:
+//			Indicación de reconocimiento
+// Regresa:	0x01 - Si no hubo problema
+//      	Edo - Si el dato no se envío como se esperaba
+//********************************************************************
+
+uint8_t TWI_LeeByte(uint8_t *dato, uint8_t ack){
+ 538:	dc 01       	movw	r26, r24
+uint8_t  edo;
+
+	if(ack)
+ 53a:	66 23       	and	r22, r22
+ 53c:	31 f0       	breq	.+12     	; 0x54a <TWI_LeeByte+0x12>
+		TWCR |= (1<<TWEA);          // Lectura con ACK
+ 53e:	ec eb       	ldi	r30, 0xBC	; 188
+ 540:	f0 e0       	ldi	r31, 0x00	; 0
+ 542:	90 81       	ld	r25, Z
+ 544:	90 64       	ori	r25, 0x40	; 64
+ 546:	90 83       	st	Z, r25
+ 548:	05 c0       	rjmp	.+10     	; 0x554 <TWI_LeeByte+0x1c>
+	else
+		TWCR &= (~(1<<TWEA));		// Lectura con nACK
+ 54a:	ec eb       	ldi	r30, 0xBC	; 188
+ 54c:	f0 e0       	ldi	r31, 0x00	; 0
+ 54e:	90 81       	ld	r25, Z
+ 550:	9f 7b       	andi	r25, 0xBF	; 191
+ 552:	90 83       	st	Z, r25
+	
+	TWCR |= (1<<TWINT);				// Inicia la lectura
+ 554:	ec eb       	ldi	r30, 0xBC	; 188
+ 556:	f0 e0       	ldi	r31, 0x00	; 0
+ 558:	90 81       	ld	r25, Z
+ 55a:	90 68       	ori	r25, 0x80	; 128
+ 55c:	90 83       	st	Z, r25
+	while(!(TWCR & (1<<TWINT)));    // Espera la bandera TWINT
+ 55e:	90 81       	ld	r25, Z
+ 560:	99 23       	and	r25, r25
+ 562:	ec f7       	brge	.-6      	; 0x55e <TWI_LeeByte+0x26>
+	edo = TWSR & 0xF8;              // Obtiene el estado
+ 564:	90 91 b9 00 	lds	r25, 0x00B9	; 0x8000b9 <__DATA_REGION_ORIGIN__+0x59>
+									// Dos posibilidades de éxito
+	if( edo == 0x58 ||              // Dato leído con ACK
+ 568:	29 2f       	mov	r18, r25
+ 56a:	20 7f       	andi	r18, 0xF0	; 240
+ 56c:	20 35       	cpi	r18, 0x50	; 80
+ 56e:	19 f0       	breq	.+6      	; 0x576 <TWI_LeeByte+0x3e>
+	else
+		TWCR &= (~(1<<TWEA));		// Lectura con nACK
+	
+	TWCR |= (1<<TWINT);				// Inicia la lectura
+	while(!(TWCR & (1<<TWINT)));    // Espera la bandera TWINT
+	edo = TWSR & 0xF8;              // Obtiene el estado
+ 570:	89 2f       	mov	r24, r25
+ 572:	88 7f       	andi	r24, 0xF8	; 248
+ 574:	08 95       	ret
+									// Dos posibilidades de éxito
+	if( edo == 0x58 ||              // Dato leído con ACK
+	    edo == 0x50 ) {             // Dato leído con nACK
+		   *dato = TWDR;            // Ubica el dato leído
+ 576:	80 91 bb 00 	lds	r24, 0x00BB	; 0x8000bb <__DATA_REGION_ORIGIN__+0x5b>
+ 57a:	8c 93       	st	X, r24
+		   return 0x01;
+ 57c:	81 e0       	ldi	r24, 0x01	; 1
+	}
+
+	return edo;						// Situación no esperada
+}
+ 57e:	08 95       	ret
+
+00000580 <TWI_Paro>:
+// TWI_Paro: Genera una condición de paro
+//********************************************************************
+
+void TWI_Paro() {
+	
+   TWCR=(1<<TWINT)|(1<<TWEN)|(1<<TWSTO);  // Condicion de paro                                                  
+ 580:	84 e9       	ldi	r24, 0x94	; 148
+ 582:	80 93 bc 00 	sts	0x00BC, r24	; 0x8000bc <__DATA_REGION_ORIGIN__+0x5c>
+   while(TWCR & 1<<TWSTO);                // El bit se limpia por HW
+ 586:	ec eb       	ldi	r30, 0xBC	; 188
+ 588:	f0 e0       	ldi	r31, 0x00	; 0
+ 58a:	80 81       	ld	r24, Z
+ 58c:	84 fd       	sbrc	r24, 4
+ 58e:	fd cf       	rjmp	.-6      	; 0x58a <TWI_Paro+0xa>
+}
+ 590:	08 95       	ret
+
+00000592 <_exit>:
+ 592:	f8 94       	cli
+
+00000594 <__stop_program>:
+ 594:	ff cf       	rjmp	.-2      	; 0x594 <__stop_program>
