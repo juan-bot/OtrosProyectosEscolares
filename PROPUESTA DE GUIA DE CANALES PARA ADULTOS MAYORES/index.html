@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel='stylesheet' href='style.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Guia de canales</title>
+
+  </head>
+  <body>
+      <div class="row ">
+
+        <div class="col-lg-5" >
+          <div class="Infoo ">
+            <div class="container">
+              <br><br>
+              <h2 id="secuencia"></h2>
+              <br><br>
+              <h2 id="titulo"></h2>
+              <h2 id="genero"></h2>
+              <h2 id="tipo"></h2>
+            </div>
+            <img src="image.png" id="imagenn">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="Infoo">
+            <div class="row">
+              <div class="col">
+                <table class="table table-striped table-bordered ">
+                  <thead>
+                    <tr >
+                      <th class="uno">VIERNES 08 Enero 2021</th>
+                      <th class="dos">09:00 PM</th>
+                      <th >09:30 PM</th>
+                      <th >10:00 PM</th>
+                      <th >10:30 PM</th>
+                      <th>11:00 PM</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+          <table class="table table-striped table-bordered  table-dark">
+            <tbody>
+
+              <tr>
+                <th>#200 <img id="icono" src="iconos/axn.png">  AXN </th>                             <!-- en reproducir(parametro para que abra la pagina 2 ) puedes modificar esto en el js-->
+                <td  onmouseover="Informacion('1.gif',1,'','Criminal Minds','Acción','Serie de televisión','DQ0eAk3nQeE')" onClick="reproducir(1)"  class="Reproduciendo" colspan="3">Criminal Minds</td>
+                <td  onmouseover="Informacion('2.gif',2,'10:30 pm','Csi Miami','Acción','Serie de televisión')"  class="Espera" >Csi Miami</td>
+                <td  onmouseover="Informacion('3.gif',2,'11:00 pm','CSI','Acción','Serie de televisión')" " class="Espera">CSI</td>
+              </tr>
+
+            <tr>
+                <th>#201 <img id="icono" src="iconos/cinemax.png"> Cinemax</th>
+                <td  onmouseover="Informacion('8.gif',1,'','El caza recompensas','Comedia romántica','Pelicula')" onClick="reproducir(2)" class="Reproduciendo" colspan="2" >El caza recompensas</td>
+                <td  onmouseover="Informacion('9.gif',2,'10:00 pm','Malas enseñanzas','Comedia cinematográfica','Pelicula')"  class="Espera">Malas enseñanzas</td>
+                <td  onmouseover="Informacion('10.gif',2,'10:30 pm','Mi novia Polly','Romance','Pelicula')"  class="Espera">Mi novia Polly</td>
+                <td  onmouseover="Informacion('11.gif',2,'11:00 pm','Primicia mortal','Thriller','Pelicula')"  class="Espera">Primicia mortal</td>
+              </tr>
+              <tr>
+                <th>#202  <img id="icono" src="iconos/cn.png">  Cartoon Net</th>
+                <td  onmouseover="Informacion('16.gif',1,'','Coraje el perro cobarde','Animación','Serie de dibujo animados')" onClick="reproducir(3)"  class="Reproduciendo" colspan="5" >Coraje el perro cobarde</td>
+              </tr>
+              <tr>
+                <th>#203  <img id="icono" src="iconos/cnn.png">  CNN</th>
+                <td  onmouseover="Informacion('22.gif',1,'','Amanpour','Noticias','Serie de televisión')" onClick="reproducir(4)" class="Reproduciendo" >Amanpour</td>
+                <td  onmouseover="Informacion('23.gif',2,'9:30 pm','Choque de opiniones','Noticias','Serie de televisión')"  class="Espera">Choque de opiniones</td>
+                <td  onmouseover="Informacion('24.gif',2,'10:00 pm','Destinos','Noticias','Serie de televisión')"  class="Espera">Destinos</td>
+                <td  onmouseover="Informacion('25.gif',2,'10:30 pm','Fuentes confiables','Noticias','Serie de televisión')"  class="Espera">Fuentes confiables</td>
+                <td  onmouseover="Informacion('26.gif',2,'11:00 pm','México opina','Noticias','Serie de televisión')"  class="Espera">México opina</td>
+              </tr>
+              <tr>
+                <th>#204 <img id="icono" src="iconos/discoveryhh.png"> Discovery_h&h</th>
+                <td  onmouseover="Informacion('29.gif',1,'','Cake boss','Reality','Serie de televisión')" onClick="reproducir(5)"  class="Reproduciendo" colspan="4" onmouseover="Informacion('1.gif',1,'','Km 10','Terror','Pelicula')">Cake boss</td>
+                <td  onmouseover="Informacion('30.gif',2,'11:00 pm','Cupcake Wars','Alimento / Reality','Serie de televisión')"  class="Espera">Cupcake Wars</td>
+              </tr>
+              <tr>
+                <th>#205 <img id="icono" src="iconos/disney.png">   Disney XD </th>
+                <td  onmouseover="Informacion('36.gif',1,'','Cortos de mickey mouse','Animación','Serie de dibujo animados')" onClick="reproducir(6)"  class="Reproduciendo" colspan="3">Cortos de mickey mouse</td>
+                <td  onmouseover="Informacion('37.gif',2,'10:30 pm','Gravity falls un verano de misterios','Animación','Serie de dibujo animados')"  class="Espera" >Gravity falls</td>
+                <td  onmouseover="Informacion('38.gif',2,'11:00 pm','Kick buttowski medio doble de riesgo','Animación','Serie de dibujo animados')"  class="Espera">Kick buttowski</td>
+              </tr>
+              <tr>
+                <th>#206 <img id="icono" src="iconos/espn.png"> ESPN</th>
+                <td  onmouseover="Informacion('44.gif',1,'','ESPN radio formula','Deportes','Series de televisión deportivas')" onClick="reproducir(7)" class="Reproduciendo" colspan="2" >ESPN radio formula</td>
+                <td  onmouseover="Informacion('45.gif',2,'10:00 pm','Futbol Picante','Deportes','Series de televisión deportivas')"  class="Espera">Futbol Picante</td>
+                <td  onmouseover="Informacion('46.gif',2,'10:30 pm','Los capitanes','Deportes','Series de televisión deportivas')" class="Espera">Los capitanes</td>
+                <td  onmouseover="Informacion('47.gif',2,'11:00 pm','NBA action','Deportes','PSeries de televisión deportivas')"  class="Espera">NBA action</td>
+              </tr>
+              <tr>
+                <th>#207  <img id="icono" src="iconos/fox.png">  FOX</th>
+                <td  onmouseover="Informacion('50.gif',1,'','El gato','Fantasía / Aventura','Pelicula')" onClick="reproducir(8)"  class="Reproduciendo" colspan="5" >El gato del sombrero</td>
+              </tr>
+              <tr>
+                <th>#208  <img id="icono" src="iconos/hbo.png">  HBO</th>
+                <td  onmouseover="Informacion('57.gif',1,'','17 otra vez','Comedia cinematográfica / Drama','Pelicula')" onClick="reproducir(9)" class="Reproduciendo" >17 otra vez</td>
+                <td  onmouseover="Informacion('58.gif',2,'9:30 pm','Angry birds la pelicula','Animación','Pelicula')" class="Espera">Angry birds</td>
+                <td  onmouseover="Informacion('59.gif',2,'10:00 pm','Annabelle','Sobrenatural','Pelicula')" class="Espera">Annabelle</td>
+                <td  onmouseover="Informacion('60.gif',2,'10:30 pm','Bad boys para siempre','Acción / Suspenso','Pelicula')"  class="Espera">Bad boys</td>
+                <td  onmouseover="Informacion('61.gif',2,'11:00 pm','Happy feet el pingüino ','Animación / Infantil','Pelicula')"  class="Espera">Happy feet </td>
+              </tr>
+              <tr>
+                <th>#209 <img id="icono" src="iconos/natgeo.png">  NATGEO</th>
+                <td  onmouseover="Informacion('64.gif',1,'','Cazadores salvajes','Vida salvaje','Serie de televisión')" onClick="reproducir(10)"  class="Reproduciendo" colspan="4" onmouseover="Informacion('1.gif',1,'','Km 10','Terror','Pelicula')">Cazadores salvajes</td>
+                <td  onmouseover="Informacion('65.gif',2,'11:00 pm','Cuando los tiburones atacan','Vida salvaje','Serie de televisión')"  class="Espera">Tiburones</td>
+              </tr>
+              <tr>
+                <th>#210 <img id="icono" src="iconos/televisa.png">  Televisa</th>
+                <td  onmouseover="Informacion('71.gif',1,'','100 mexicanos dijeron','Programa de concurso','Serie de televisión')" onClick="reproducir(11)"  class="Reproduciendo" colspan="3">100 mexicanos dijeron</td>
+                <td  onmouseover="Informacion('72.gif',2,'10:30 pm','Amarte duele','Romance','Pelicula')"  class="Espera" >'Amarte duele</td>
+                <td  onmouseover="Informacion('73.gif',2,'11:00 pm','Contacto deportivo','Deportes','Series de televisión deportivas')" class="Espera">Contacto deportivo</td>
+              </tr>
+              <tr>
+                <th>#21 <img id="icono" src="iconos/tlc.png">  TLC</th>
+                <td  onmouseover="Informacion('78.gif',1,'','El amor despues de prisión','Reality','Serie de televisión')" onClick="reproducir(12)" class="Reproduciendo" colspan="2" >El amor despues de prisión</td>
+                <td  onmouseover="Informacion('79.gif',2,'10:00 pm','El desafio de buddy','Reality','Serie de televisión')" class="Espera">El desafio de buddy</td>
+                <td  onmouseover="Informacion('80.gif',2,'10:30 pm','Honey Boo Boo','Reality','Serie de televisión')"  class="Espera">Honey Boo Boo</td>
+                <td  onmouseover="Informacion('81.gif',2,'11:00 pm','Kilos mortales','Reality','Serie de televisión')"  class="Espera">Kilos mortales</td>
+              </tr>
+              <tr>
+                <th>#212  <img id="icono" src="iconos/tnt.png"> TNT</th>
+                <td  onmouseover="Informacion('85.gif',1,'Buscando a dory','Km 10','Animación','Pelicula')" onClick="reproducir(13)"  class="Reproduciendo" colspan="5" >Buscando a dory</td>
+              </tr>
+              <tr>
+                <th>#233  <img id="icono" src="iconos/universal.png">  Universal</th>
+                <td  onmouseover="Informacion('93.gif',1,'','Chicago MED','Terror','Serie de televisión')" onClick="reproducir(14)" class="Reproduciendo" >Chicago MED</td>
+                <td  onmouseover="Informacion('94.gif',2,'9:30 pm','Chicago P.D','Acción','Serie de televisión')"  class="Espera">Chicago P.D</td>
+                <td  onmouseover="Informacion('95.gif',2,'10:00 pm','Doctor House','Acción','Serie de televisión')" class="Espera">Doctor House</td>
+                <td  onmouseover="Informacion('96.gif',2,'10:30 pm','FBI most wanted','Acción','Serie de televisión')"  class="Espera">FBI most wanted</td>
+                <td  onmouseover="Informacion('97.gif',2,'11:00 pm','La ley y el orden','Acción','Serie de televisión')"  class="Espera">La ley y el orden</td>
+              </tr>
+              <tr>
+                <th>#214 <img id="icono" src="iconos/wb.png">   Warner Bros</th>
+                <td  onmouseover="Informacion('99.gif',1,'','Arrow','Ciencia ficción','Serie de televisión')" onClick="reproducir(15)"  class="Reproduciendo" colspan="4" onmouseover="Informacion('1.gif',1,'','Km 10','Terror','Pelicula')">Arrow</td>
+                <td  onmouseover="Informacion('100.gif',2,'11:00 pm','Friends','Comedia de situación','Pelicula')"  class="Espera">Friends</td>
+              </tr>
+              <tr>
+                <th>#215 <img id="icono" src="iconos/axn.png">  AXN </th>
+                <td  onmouseover="Informacion('4.gif',1,'','CSI_NY','Acción','Serie de televisión')" onClick="reproducir(16)"  class="Reproduciendo" colspan="3">CSI_NY</td>
+                <td  onmouseover="Informacion('5.gif',2,'10:30 pm','Hawaii Five-0','Acción','Serie de televisión')"  class="Espera" >Hawaii Five-0</td>
+                <td  onmouseover="Informacion('6.gif',2,'11:00 pm','NCIS','Acción','Serie de televisión')"  class="Espera">NCIS</td>
+              </tr>
+              <tr>
+                <th>#216 <img id="icono" src="iconos/cinemax.png"> Cinemax</th>
+                <td  onmouseover="Informacion('12.gif',1,'','Rápidos y furioso: Reto Tokio','Acción / Thriller','Pelicula')" onClick="reproducir(17)" class="Reproduciendo" colspan="3" >Rápidos y furioso: Reto Tokio</td>
+                <td  onmouseover="Informacion('13.gif',2,'10:00 pm','Robo en las alturas','Robo / crimen','Pelicula')"  class="Espera">Robo en las alturas</td>
+                <td  onmouseover="Informacion('14.gif',2,'10:30 pm','Scott pilgrim vs los ex de la chica de sus sueños','Comedia cinematográfica','Pelicula')"  class="Espera">Scott pilgrim</td>
+              </tr>
+              <tr>
+                <th>#217  <img id="icono" src="iconos/cn.png">  Cartoon Net</th>
+                <td  onmouseover="Informacion('15.gif',1,'','Chowder','Animación','Serie de dibujo animados')" onClick="reproducir(18)"  class="Reproduciendo" colspan="5" >Chowder</td>
+              </tr>
+              <tr>
+                <th>#218  <img id="icono" src="iconos/cnn.png">   CNN</th>
+                <td  onmouseover="Informacion('27.gif',1,'','Oppenheimer Presenta','Noticias','Serie de televisión')" onClick="reproducir(19)" class="Reproduciendo" colspan="4" >Oppenheimer Presenta</td>
+                <td  onmouseover="Informacion('28.gif',2,'9:30 pm','Portafolio global','Noticias','Serie de televisión')"  class="Espera">Portafolio global</td>
+
+              </tr>
+              <tr>
+                <th>#219 <img id="icono" src="iconos/discoveryhh.png"> Discovery_h&h</th>
+                <td  onmouseover="Informacion('31.gif',1,'','Drag queens al rescate','Reality','Serie de televisión')" onClick="reproducir(20)"  class="Reproduciendo" colspan="4" onmouseover="Informacion('1.gif',1,'','Km 10','Terror','Pelicula')">Drag queens al rescate</td>
+                <td  onmouseover="Informacion('32.gif',2,'11:00 pm','El desafío de zumbo','Cocina/ Reality','Serie de televisión')"  class="Espera">El desafío de zumbo</td>
+              </tr>
+
+           </tbody>
+          </table>
+        </div>
+      </div>
+    <script src="scripts.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

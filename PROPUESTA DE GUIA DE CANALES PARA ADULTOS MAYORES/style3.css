@@ -1,0 +1,16 @@
+body{
+    background-color: #23272C;
+}
+img{
+    width: 300px;
+    height:250px;
+}
+.container{
+    padding-top: 2%;
+}
+.row{
+    padding-left: 5%;
+}
+h2{
+    color: #ffffff;
+}

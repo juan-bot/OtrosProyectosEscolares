@@ -1,0 +1,65 @@
+*{
+  background-color: #23272C;
+}
+body{
+  position: relative;
+    display: inline-block;
+}
+#imagenn{
+  width: 600px;
+  height: 320px;
+}
+#icono{
+  width: 40px;
+  height:40px;
+}
+th{
+    border:2px solid black;
+    height: 70px;
+    width: 140px;
+    background: #272F39;
+    color: floralwhite;
+    
+  }
+.uno{
+  width: 152px;
+}
+.dos{
+  width: 155px;
+}
+td{
+    border:2px solid black;
+    width: 140px;
+    font-size:22px;
+  }
+  .Reproduciendo{
+    background: #4E5660;
+  }
+  .Reproduciendo:hover {
+    background: #318aac;
+    border-color: #34495E;
+    position: relative;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .Espera{
+    background:#33383E;
+  }
+  .Espera:hover {
+    background: #34495E;
+    border-color: #318aac;
+    position: relative;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    
+  }
+
+  .Infoo{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+  }
