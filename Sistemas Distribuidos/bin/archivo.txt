@@ -1,0 +1,5 @@
+gato
+perro
+elefante
+celular
+telefono
